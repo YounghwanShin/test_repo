@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# 인쇄물 중간 산출물
+grammar29/print/out/html/
+grammar29/print/out/tmp/
+grammar29/print/preview/

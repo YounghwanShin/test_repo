@@ -1,0 +1,963 @@
+[
+ {
+  "exam_id": "2027-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Leaders come in all shapes and sizes, but successful leaders tend to have one thing in common: the ability to share someone else’s feelings, known as empathy. While empathy forms in everyone to some degree, effective leaders know how to develop this emotional guidance system {1|to connect} with others’ feelings and perspectives. However, empathy in leaders is more than {2|simply} being kind to employees, clients, and customers. Empathetic people seem more approachable, focusing on the words of others. Listening to the needs of employees {3|enable} leaders to clearly identify what makes them feel heard. Utilized in this way, empathy can be considered a crucial part of {4|maintaining} employee satisfaction. Leaders who are unable to surround themselves with competent employees will not be successful. Indeed, a leader’s failure to empathize with talented workers is one of the main situations {5|that} could lead them to leave an organization. In this case, the organization must spend precious time and money to find suitable replacements for them.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "두 출처를 정규화해 비교하니 지문 전문이 한 글자도 다르지 않았다(곡선 따옴표 ’ 포함). 밑줄 범위 다섯 개와 번호도 레코드의 ①~⑤와 같다. 두 출처 모두 발문에 [3점]이 없다. home2는 배점을 2점으로 표시했고, jev 전사본도 30번에만 [3점]을 달았다. 각주도 두 출처 모두 없다. home2와 jev는 다른 문항(30번의 *repel 등)에는 각주를 옮겨 두었으므로, 29번에는 원래 각주가 없는 것으로 판단했다. | 검증: 수정 없음. jev dataset.json english:29(시험지 이미지 전사본)와 home2_latest/solution_2026_9_h3.html Q29를 각각 단어 단위로 diff했고 둘 다 한 글자도 다르지 않았다(곡선 따옴표 ’ 포함). 밑줄 5개(to connect/simply/enable/maintaining/that)와 번호도 레코드 ①~⑤와 같다.; 배점: jev 영어 문항 가운데 [3점]이 붙은 것은 12·13·15·21·30·33·34·42번이고 29번은 없다. home2도 29번을 2점으로 표시했으므로 발문에 [3점]을 붙이지 않은 것이 맞다. 각주는 jev가 30번에만 옮겨 두었고 29번에는 없다."
+ },
+ {
+  "exam_id": "2027-6월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Fashion is always deeply cultural, and an excellent example of this can be seen in the evolution of European clothing. At the beginning of the Middle Ages, clothing tended to be simple and was {1|frequently} made of rough wool or animal furs. With advances in cloth making, however, fashion began moving toward styles {2|what} were more elaborate and form-fitting. In the Renaissance and Elizabethan eras, styles became even more refined. The clothes that wealthy people were wearing became increasingly fancier, with a particular emphasis being placed on smaller waists. The connection between clothing and social status was so pronounced that laws were enacted {3|to limit} the wearing of certain luxury items. {4|Allowed} only for higher social classes, luxurious styles and decorations such as feathers, silk, or velvet were used as a means of demonstrating one’s standing in society. This was further reinforced as upperclass styles came to be explicitly incorporated into cultural ceremonies so that {5|their} wearers’ roles could be identified clearly.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "home2 상세풀이와 LTsRYI의 밑줄 지문은 한 글자도 다르지 않다. home2 문장별 해설 파일도 차이는 두 가지뿐이다. 정답 자리를 which로 고쳐 두었고, data-text 속성에서 따옴표를 직선 '로 바꿨다. 출처 사이에 갈린 곳: cj-english/content.md에는 'upper‑class', 'silk or velvet'(쉼표 없음), 'that were'로 되어 있다. 이 파일은 정답을 고쳐 쓰고 하이픈을 U+2011로 바꾼, AI가 다시 옮긴 텍스트라서 원문 근거로 쓰지 않았다. 다수(home2 2종, LTsRYI)를 따라 'upperclass', 'silk, or velvet'로 두었다. 다만 시험지에서 'upper-/class'처럼 줄 끝에서 나뉘었을 가능성은 남아 있어, 붙여 쓰는지 하이픈을 넣는지는 시험지 원본으로 확인하지 못했다. 'increasingly fancier'는 모든 출처가 같다. LTsRYI는 home2를 베꼈을 수 있어 완전히 독립된 출처는 아니다. 시험지 PDF 원본 추출본(study.db, KCSAT-ENG, csat-analysis)에는 이 시험이 없다. 배점: home2가 2점으로 표시했고 발문에 [3점]이 없어 그대로 두었다. 이것을 확인해 줄 출처는 하나뿐이다. 각주: home2 6월 해설 파일은 어느 문항에도 각주를 옮겨 두지 않았기 때문에, 29번에 각주가 있었는지 확인할 수 없다. 빈 배열로 두었으니 시험지 원본으로 확인해야 한다. | 검증: 수정 없음. home2_latest/solution_2026_6_h3.html, m27/sol_2026_6_h3.html, ltsryi jiwoo_moi.html, jiwoo_1-2.html의 지문과 단어 단위로 diff했고 네 곳 모두 한 글자도 다르지 않았다. 밑줄 5개(frequently/what/to limit/Allowed/their)와 번호도 레코드와 같다.; 확정하지 못한 점 1 (참고): 'upperclass'를 cj-english만 'upper‑class'로 적었다. cj-english와 home2의 하이픈 복합어 25개를 비교하면 24개가 같고 이것 하나만 다르다. 다만 cj-english는 연속 쉼표를 지우고(silk or velvet, fly and 등 7곳), 따옴표를 ‘’에서 “”로, Internet의 대소문자를 바꾸고, 정답 자리도 that으로 고쳐 둔 AI 재작성본이다. 그래서 근거로 삼지 않고 다수(home2, LTsRYI)를 따랐다. 고3 시험지에서 줄 끝 하이픈으로 단어가 나뉜 예는 study.db 전체에서 2건뿐이다. 그래도 시험지 원본 PDF가 로컬에 없어 원본으로 대조하지는 못했다.; 확정하지 못한 점 2 (참고): 각주. home2 6월 해설 파일과 LTsRYI는 어느 문항에도 각주를 옮겨 두지 않았다. 그래서 29번에 각주가 없다는 근거는 없고, 빈 배열은 확인된 값이 아니다.; 배점: home2 6월 파일에서 [3점]이 붙은 발문은 10개(듣기 3개, 21·30·33·34·37·39·42)이고 이것으로 총점 100점이 맞는다. 29번은 그 안에 없으므로 [3점]을 붙이지 않은 것이 맞다."
+ },
+ {
+  "exam_id": "2026-5월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "A study by Eurofound found that young people who were working remotely {1|reported} more difficulties in managing their workload than older colleagues. Moreover, many young people began their careers working remotely during the pandemic, unlike those in older generations who had many years to establish interpersonal connections and embed {2|themselves} in the organizational culture in an in-person job. A survey by Prospects found that almost half of students and graduates in the United Kingdom found {3|it} difficult to work from home during the pandemic due to a lack of suitable workspace or distractions. While young people may struggle long-term with remote work, perhaps more of a hybrid model {4|where} they can work from home part of the time and work onsite other times, would work well for them. But it may not be that they need a formal hybrid structure with specific days of the week designated for working remotely but instead a fluid option that allows them, if possible, depending on the job role, {5|chooses} their day-to-day work location.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "지문 전문이 담긴 출처는 home2 하나뿐이다. sol2026_5_h3.txt는 home2를 추출한 것이라 독립된 출처가 아니다. 그래서 다른 출처와 글자 단위로 대조하지 못했다. 밑줄 다섯 개와 번호는 레코드와 같다. 'other times, would work well'의 쉼표는 문법상 어색하지만 home2 원문에 있어 그대로 두었다. home2의 q-prompt에는 [3점]이 없다. 그러나 home2의 배점 표시(3점)와 exam-analysis 일람표(29번 3점)가 일치하므로 발문 끝에 [3점]을 붙였다. 각주: home2는 같은 시험 30번에 각주(*rhizosphere 등)를 옮겨 두었는데 29번에는 없어서 빈 배열로 두었다. | 검증: 수정 없음. home2/solution_2026_5_h3.html과 home2_latest 사본의 지문과 단어 단위로 diff했고 둘 다 한 글자도 다르지 않았다. sol2026_5_h3.txt도 같다. 밑줄 5개(reported/themselves/it/where/chooses)와 번호도 레코드와 같다.; 참고: 지문 전문의 출처는 home2 하나뿐이라(사본 2개와 추출 텍스트는 독립된 출처가 아님) 다른 출처와 글자 단위로 대조하지는 못했다. 'other times, would'의 쉼표도 home2 원문 그대로 두었다.; [3점]: home2 5월 파일은 발문 43개 어디에도 [3점]을 적지 않았다. 대신 q-pts에 29번을 3점으로 표시했고, exam-analysis 일람표도 29번(정답 ⑤, 오답률 53.6%)을 3점으로 적었다. 그래서 발문 끝에 [3점]을 붙인 것이 맞다.; 각주: home2 5월 파일은 다른 문항의 각주 11줄(30번 *rhizosphere 등)을 옮겨 두었고 29번에는 없다. 각주가 없다는 판단은 타당하다."
+ },
+ {
+  "exam_id": "2026-3월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Darwin understood that since inheritance is conservative, it is in the nature of the organism to impose itself on the surroundings, {1|producing} many highly similar but variable offspring regardless of the nature of the conditions. He further recognized that these fundamental aspects of the nature of the organism {2|imply} reproductive overrun, with organisms routinely producing more offspring than there are resources to support them. The need to survive implies that the capacity for using necessary resources must complement the opportunity to use {3|them}. But needs and opportunity do not perfectly match. Inheritance produces the capacities for exploiting the surroundings, but in a way that is indifferent to the surroundings. Offspring cannot anticipate the nature of the conditions {4|which} they find themselves, much less alter themselves in ways that are suitable to any changes in those conditions. While it is true that organisms can express some amount of flexibility in their form and function in response to their immediate surroundings, these adjustments are {5|minor} compared to the constraints of inheritance. As a result, not every living thing can live everywhere.",
+  "footnotes": [
+   "*offspring: 자손",
+   "**exploit: 이용하다"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db의 시험지 PDF 추출본에서 줄바꿈을 지워 이었다. home2 상세풀이와 단어 단위로 대조하니 다른 곳은 하나뿐이었다. 원문자 뒤 'them.'의 마침표가 PDF 추출본에서는 밑줄 표현에 붙어 있었는데, home2에 따라 마침표를 밑줄 밖으로 빼 {3|them}.로 고쳤다. 발문의 [3점]은 study.db와 home2가 같다. 각주 '*offspring: 자손 **exploit: 이용하다'는 study.db에만 있고 home2 3월 파일에는 각주가 없다. 시험지 PDF에서 추출한 것이라 그대로 따랐다. | 검증: 수정 없음. seb/study.db와 seb2/study.db의 exam_id=173 q_num=29(시험지 PDF 추출본)에서 줄바꿈을 지워 이은 뒤 단어 단위로 diff했고, 원문자 뒤 밑줄 표현까지 한 글자도 다르지 않았다. home2 상세풀이 2종(solution_2026_3_h3_html.html, solution_2026_3_h3.html.html)과도 마크업만 다르고 본문은 같다. 이 문항에는 줄 끝 하이픈이나 소프트 하이픈이 없다.; 발문의 [3점]은 study.db, home2 q-prompt, home2 q-pts(3점) 세 곳이 모두 같다. 각주 '*offspring: 자손 **exploit: 이용하다'는 study.db 원문 그대로다. home2 3월 파일은 어느 문항에도 각주를 옮겨 두지 않아서 대조할 수 없다."
+ },
+ {
+  "exam_id": "2026-수능",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "We are exceptionally smart, and this helps us adapt to a wide range of environments. But we are not nearly smart enough as individuals {1|to solve} the adaptive problems that confronted modern humans as they spread across the globe. The package of tools, foraging techniques, ecological knowledge, and social arrangements used by any group of foragers {2|being} far too complex for any individual to create. We are able to learn all the things we need to know in each of the many different environments {3|in which} we live only because we acquire information from others. We are much better at learning from others than other species are, and we are {4|motivated} to learn from others even when we do not understand why our models are doing what they are doing. This psychology allows human populations to accumulate pools of adaptive information that {5|greatly} exceed the inventive capacities of individuals.",
+  "footnotes": [
+   "*forage: 구하러 다니다"
+  ],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "본문 글자는 study.db, jev, home2, ksatdash 네 원문이 모두 같다(공백만 다름). study.db 추출본에서 줄 끝으로 밀린 원문자 위치는 jev와 레코드에 맞춰 바로잡았다. 남는 불확실성은 ⑤의 밑줄 범위다. 레코드와 jev(<u>greatly</u>)는 'greatly'만 밑줄로 보고, home2 해설은 'greatly exceed'로 표시했다. ksatdash와 study.db에는 밑줄 정보가 없다. 레코드에 맞춰 {5|greatly}로 두었다. 이 시험의 원본 PDF가 로컬에 없어서 밑줄을 이미지로 확인하지는 못했다. 발문에는 [3점] 표시가 없다(home2 해설은 2점이라고 적었다). | 검증: 수정 없음(참고): 본문은 study.db, jev, home2, ksatdash 네 원문과 단어 단위 diff가 0이고, 원문자 위치도 jev, home2, ksatdash와 같다. ⑤ 밑줄은 레코드와 jev(빌드 스크립트에 '렌더링한 원본 페이지와 대조'라고 적혀 있음)를 따라 'greatly'로 두었다. home2 해설만 'greatly exceed'로 표시했는데, 같은 파일의 30번 밑줄은 jev와 모두 같아서 29번 ⑤에서만 둘이 갈린다. 원본 PDF가 로컬에 없어 이미지로는 확인하지 못했다. 배점은 jev 정답표(29번 2점)와 home2(2점)가 같아서 [3점]은 붙이지 않는다."
+ },
+ {
+  "exam_id": "2025-10월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The physical act of movement in the morning is not just beneficial for the body — it serves as a powerful stimulant for the brain, {1|awakening} it from the stillness of sleep and preparing it for the demands of the day. This awakening goes beyond physical health; it plays a critical role in enhancing cognitive function, particularly in the realms of creativity and imagination. One of the key mechanisms {2|which} this occurs is increased blood flow to the hippocampus, a part of the brain responsible for memory, learning, and the creation of new ideas. The hippocampus, often described as the brain’s center for imagination and memory consolidation, thrives on the increased oxygenation and nutrients {3|provided} by physical movement. Studies published in journals highlight the positive effects of regular morning exercise on cognitive flexibility and creative thinking, confirming that exercise not only promotes physical health but also stimulates neural plasticity — the brain’s ability to reorganize {4|itself} by forming new neural connections. This adaptability is essential for creative thought, as it allows individuals {5|to approach} problems from new angles, make novel associations, and think more differently.",
+  "footnotes": [
+   "*hippocampus: 해마",
+   "**consolidation: 강화",
+   "***plasticity: 가소성"
+  ],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "원문은 사실상 하나다. passages.json도 같은 PDF에서 추출한 것이라 독립 출처가 아니고, study.db에는 2025년 10월 고3 회차가 없다. 대신 PDF 5쪽을 이미지로 직접 보고 밑줄 범위(① awakening ② which ③ provided ④ itself ⑤ to approach), 대시 위치(body — it, plasticity — the), 발문의 [3점]을 확인했다. 대시는 PDF 텍스트 기준 U+2014(—)다. 'think more differently'는 원문 표현 그대로 두었다."
+ },
+ {
+  "exam_id": "2026-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Honey can be eaten by itself or mixed with other ingredients. Natural or pure honey has had no additives, preservatives or synthetic ingredients added. Also {1|referred} to as ‘undiluted’, it is usually more expensive than diluted honeys. Natural honey can also be called ‘blended honey’, {2|which} honeys from various sources are blended together ― not by the bees, but by human processors and distributors in stages after the honey has been collected. Blending is frequently done for taste as well as marketing reasons, especially since some consumers find the darker honeys too {3|strong}. Mixing different types of honey together can make it more palatable, and also gives a more uniform flavour ― this is an important consideration for producers and retailers, who {4|feel} the need to guarantee reliable, unsurprising (typically mild) flavours to their customers. Clover is one of the most popular honeys in the U.S., and {5|its} mild flavour and taste have become familiar to many Americans.",
+  "footnotes": [
+   "*dilute: 묽게 하다",
+   "**palatable: 입에 맞는"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본에서 대시(―)가 줄 끝으로 밀려 있었다('together not by the bees, ―', 'flavour this is ... for ―'). 원본 PDF와 passages.json에 따라 'together ― not by the bees', 'flavour ― this is'로 바로잡았다. 대시는 PDF 텍스트 기준 U+2015(―)다. 각주도 study.db에서 뒤섞여 있어('*dilute: **palatable: 묽게 하다 입에 맞는') PDF 이미지에 따라 둘로 나눴다. 밑줄 범위는 PDF 이미지로 확인했다. 'flavour', 'flavours'의 영국식 철자는 원문 그대로 두었다."
+ },
+ {
+  "exam_id": "2025-7월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "There is a kind of artificial intelligence application that is frequently advertised, which can be described as “vaporware”. Vaporware is applications that have either been announced or made {1|available} for sale but are not yet fully functional as artificial intelligence applications. It is often systems that seem to run on artificial intelligence technologies, but which in fact {2|do} not. Instead, they are frequently built by people manually adding the content {3|that} the artificial intelligence application is supposed to be processing. This is frequently done because initially it is cheaper to pay people to add this content than it is {4|to develop} full artificial intelligence capabilities and populate the data. Vaporware can be used for many reasons. Sometimes a product may start to be sold before it is fully developed. Taking a vaporware product to market means developers can validate ideas with customers before investing the amounts {5|require} to build a full application, allowing for more flexibility in development and for more time to build data.",
+  "footnotes": [
+   "*populate: 채우다"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 두 곳의 어순이 뒤섞여 있었다('add this ④to develop content than it is full ...', '⑤require before investing the amounts to build'). 원본 PDF, passages.json, e2507 텍스트 세 원문이 모두 'add this content than it is ④ to develop full ...'와 'investing the amounts ⑤ require to build'로 같아서 이를 따랐다. 밑줄 범위는 PDF 이미지로 확인했다. 마침표는 닫는 따옴표 뒤에 온다(“vaporware”.)."
+ },
+ {
+  "exam_id": "2026-6월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Changes in the degree of closeness {1|are} quite important in managing emotional intensity. Take, for example, emotions induced by television. Closeness and familiarity are important in making the fictional environment more {2|real}. Accordingly, most TV shows are set in the present or in a time within the memory of the viewers. Most characters are supposed to be types with whom we are familiar. Such closeness and familiarity make it easier for us {3|perceive} the imaginary story to be a real one. In other circumstances, such as when violence is shown on TV, the closeness variable is used to reduce emotional intensity. Television entertainment tends to place social problems involving violence in another time and place, letting us watch those fictionalized characters search for solutions to our problems in settings {4|safely} distanced from our own. When violence occurs in a contemporary setting, it is generally the product of the interaction of police and criminals ― again, it is {5|removed} from the lives of good citizenry.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본에서 원문자가 줄 끝으로 밀려 있었고, 대시도 'criminals again, it ― is removed'로 깨져 있었다. 원본 PDF와 passages.json에 따라 'criminals ― again, it is ⑤ removed'로 바로잡았다. 대시는 PDF 텍스트 기준 U+2015(―)다. PDF 이미지로 ②의 밑줄이 'more real'이 아니라 'real'만임을 확인했고, ①도 'are'임을 확인했다. 각주는 없다."
+ },
+ {
+  "exam_id": "2025-5월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Working with neuroscientists who use neuroimaging to understand how the human brain works, anthropologist Simon Cohn has shown the extent {1|to which} scientists need to develop personal, even intimate, relationships with their subjects in order to secure their cooperation. Only by enlisting subjects in a social relationship, even if briefly, {2|do} the researchers feel they can depend on the subjects to follow directions to the best of their ability. {3|Strapped} down uncomfortably in a dark, noisy scanner, subjects must nonetheless pay attention and follow directions in order to produce data the researchers can use. Before the subjects ever enter the scanner, researchers provide {4|them} with reassurance and sympathy and share personal experiences, creating a subjective alliance between researcher and subject. Although these tactics might influence the specific subjective experiences revealed in the scanner, they are carefully eliminated from the experimental reports so that only the signals from subjects’ brains in response to stimuli in the scanner {5|coming} to light.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "원문은 csat-analysis의 2025_05_english.pdf 한 개뿐이다. e2505.txt/e2505_raw.txt와 passages.json은 모두 이 PDF에서 나온 것이라 독립 출처가 아니다(e2505 파일은 같은 PDF의 pdftotext 출력과 diff 결과 동일). study.db에는 고3 2025년 5월 시험이 없고, KCSAT-ENG·tymo·home2에도 이 지문이 없다. PDF 본문 텍스트는 공백을 빼고 비교했을 때 복원본과 글자 하나까지 같다. 밑줄 ①~⑤(to which, do, Strapped, them, coming)는 PDF에서 원문자 바로 뒤에 오는 낱말과 레코드의 밑줄 표현이 일치한다. 다만 밑줄의 정확한 끝 범위(예: ③이 'Strapped' 한 낱말인지)는 텍스트 추출로는 확인할 수 없어서 레코드를 따랐다. 각주와 배점 표시는 PDF에 없다. 원문이 하나뿐이라 confidence는 medium으로 둔다."
+ },
+ {
+  "exam_id": "2025-3월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "We lack a sufficient vocabulary for {1|making} sense of the sources of error. The more scientific knowledge we accumulate, the better we understand that the ignorance {2|over which} the knowledge enterprise is built is shockingly deep. For instance, it turned out that psychoanalysis’s attempt to delimit the sources of error by categorizing the kinds of mistakes to which humans are subject in light of the therapeutic situation in the talking cure {3|draw} on misguided assumptions about the normalcy conditions for subjects. Digging deeper into the structure of the human mind as well as into the specific embodiment of human knowers equipped with a complex nervous system {4|showed} that our mental life is filled with illusions on all levels of knowledge acquisition, from sensation to perception, from scientific discourse to the use of technology based on the latest scientific discovery. Yet, once again, we cannot make sense of this picture of ourselves as immersed in the area of ignorance and illusion without at the same time relying on a huge background of shared, objective knowledge that makes our ignorance {5|available} to us. Subjectivity and objectivity are interwoven with our fallibility.",
+  "footnotes": [
+   "*embodiment: 화신(化身)",
+   "**be immersed in: ~에 깊이 빠지다",
+   "***fallibility: 불완전성, 틀릴 가능성"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db와 csat-analysis PDF는 서로 다른 경로로 모은 원문이다. 두 원문을 공백을 빼고 비교했을 때 복원본과 완전히 같다. 줄바꿈만 없앴고 고친 낱말은 없다. 밑줄 ①~⑤(making, over which, draw, showed, available)는 두 원문 모두 원문자 바로 뒤에 오며 레코드와 일치한다. 각주 세 개는 study.db와 PDF가 같다. PDF 추출본에는 '* embodiment'처럼 별표 뒤에 공백이 있지만 study.db 형식(*embodiment)을 따랐다. 물결표는 ASCII '~'다."
+ },
+ {
+  "exam_id": "2025-수능",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Think of yourself. When you decide to get up and get a drink of water, for example, you don’t consciously organize or consider the host of steps involved. Imagine if we {1|had} to consider every single muscle that needed to be contracted or relaxed just to stand up and walk. It would be tiresome and very slow ― as patients recovering from a brain injury affecting the motor system {2|knows}. The autopilot parts of our brain do it for us automatically, {3|freeing} up our conscious mind for more important jobs. It is the older parts of our brain {4|that} support these automatic processes that allow us to move, hear, see, and use many of our social skills. More recently evolved abilities like talking, reading, and writing are far less automated. So, most of the time, {5|what} you are perceiving, feeling, or thinking is based on a very crude and fast analysis that happens completely without your awareness.",
+  "footnotes": [
+   "*crude: 투박한"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 대시가 'very slow as patients recovering from a brain injury ― affecting'처럼 뒤로 밀려 어순이 섞여 있다. PDF, passages.json, jev transcription, ksatdash 네 곳이 모두 'very slow ― as patients recovering from a brain injury affecting'이라 다수 쪽을 따랐다. 대시는 U+2015(―)다. study.db는 원문자가 줄 끝으로 밀려 있지만 다른 네 원문에서는 ①~⑤가 had, knows, freeing, that, what 바로 앞에 와서 레코드와 일치한다(jev의 <u> 표시도 같다). 이것만 빼면 다섯 원문 모두 복원본과 글자 단위로 같다. 발문에 배점 표시는 없다(같은 시험 30번에는 [3점]이 있다)."
+ },
+ {
+  "exam_id": "2024-10월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Sometime late in the next millennium, our descendants may head off to other star systems. They may use comets as stepping-stones, some of which are only {1|loosely} bound to our sun because they reach almost halfway to the nearest star system, Alpha Centauri. Our remote descendants may eventually colonize much of our galaxy just as the first living organisms on Earth once colonized Earth’s young oceans. Interstellar migrations will depend on as yet unimagined technologies for driving ships, for maintaining sustainable environments, and for putting humans into hibernations {2|last} for centuries. Interstellar journeys will also depend on the existence of groups willing {3|to risk} long and dangerous voyages with little or no hope of returning. It would take spaceships {4|traveling} at 1 percent of the speed of light more than four hundred years to reach the Alpha Centauri system. But if they spread out from there at a similar rate, they could settle star systems throughout the Milky Way within one hundred million years, {5|which} is just a bit longer than the span of time since dinosaurs ruled our Earth.",
+  "footnotes": [
+   "*comet: 혜성",
+   "**hibernation: 동면"
+  ],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "원문은 study.db 한 개뿐이다. seb2/study.db는 같은 DB의 사본이라 본문이 바이트 단위로 같다. csat-analysis, KCSAT-ENG, tymo, home2, ksatdash에는 이 시험이 없다. 'stepping\\xadstones'의 소프트 하이픈(U+00AD)이 줄 끝이 아니라 줄 가운데에 있어서 원래 하이픈 낱말로 보고 'stepping-stones'로 옮겼다. 원문자 ①~⑤는 원문에서 loosely, last, to risk, traveling, which 바로 앞에 있고 레코드와 일치한다. 밑줄 끝 범위(③ 'to risk')는 레코드를 따랐다. 어순이 섞인 곳은 없었다(sentences 테이블의 문장 분리와도 같다). 원문이 하나뿐이라 confidence는 medium으로 둔다."
+ },
+ {
+  "exam_id": "2025-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Victorian England is characterised by the full development of the Industrial Revolution. England became the first industrial nation in the world and, by 1850, the first nation to have more people {1|employed} in industry than in agriculture. Expanding trade coincided with the growth of the Empire and brought great wealth to Britain, but this wealth was not {2|evenly} distributed. Many enterprising individuals (the ‘self-made men’) rose from humble origins to positions of wealth and influence, but large sections of the working class {3|were} forced into the overcrowded slums of large cities where they worked long hours for low wages in unhealthy conditions. The manufacturing towns of the north of England provided some of the worst examples and {4|inspired} such socially conscious novels as Kingsley’s Alton Locke, Gaskell’s Mary Barton, and Dickens’s Hard Times. In the south there was London, already the largest city in the world, showing all the crime, evil, and misery {5|whose} result from overpopulation and unplanned growth.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "원문은 study.db 한 개뿐이다. seb2는 같은 DB의 사본이고, 다른 로컬 자료에는 이 시험이 없다. 원문은 원문자가 모두 줄 끝으로 밀려 있었다. 각 줄 안에서 해설과 레코드가 짚는 낱말(① employed, ② evenly, ③ were, ④ inspired, ⑤ whose) 바로 앞으로 옮겼고, 해당 줄에서 이 낱말들은 한 번씩만 나온다. 'Alton Locke ,', 'Mary Barton ,', 'Hard Times .'처럼 소설 제목 뒤에 낀 공백은 이탤릭 글꼴이 바뀌는 곳에서 생긴 추출 흔적이다(같은 추출본의 발문 '부분 중 ,', '것은 ?'도 같은 흔적). 그래서 공백을 지우고 'Alton Locke, … Mary Barton, … Hard Times.'로 썼다. 원문에서 소설 제목 세 개(Alton Locke, Mary Barton, Hard Times)는 이탤릭이었을 가능성이 높지만 이 형식으로는 나타낼 수 없다. 조판할 때 이탤릭 처리를 검토해야 한다. 영국식 철자 characterised는 그대로 두었다. 각주는 원문(29번 본문과 앞뒤 문항)에 없다. 발문에 배점 표시는 없다(같은 시험 30번에는 [3점]이 있다). 원문이 하나뿐이라 confidence는 medium으로 둔다."
+ },
+ {
+  "exam_id": "2024-7월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "When we assess potential, we make the cardinal error of focusing on starting points—the abilities that are immediately visible. In a world obsessed with innate talent, we assume the people with the most promise {1|are} the ones who stand out right away. But high achievers vary dramatically in their initial aptitudes. If we judge people only by what they can do on day one, their potential remains hidden. You can’t tell {2|where} people will land from where they begin. With the right opportunity and motivation {3|to learn}, anyone can build the skills to achieve greater things. Potential is not a matter of where you start, but of how far you travel. We need to focus less on starting points and more on distance {4|traveled}. For every Mozart who makes a big splash early, there are multiple Bachs who ascend slowly and {5|blooming} late. They’re not born with invisible superpowers; most of their gifts are homegrown or homemade.",
+  "footnotes": [
+   "*cardinal: 아주 중요한"
+  ],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "원문이 사실상 하나뿐이다. seb/study.db와 seb2/study.db는 같은 시험지 PDF 추출본으로 본문이 완전히 같고, KCSAT-ENG, csat-analysis(passages.json, raw_pdfs), home2/home2_latest, ksatdash 어디에도 이 지문이 없다(cardinal error, Bachs, homegrown, big splash로 grep). 그래서 다른 원문과 교차 대조하지 못했다. 추출본은 줄바꿈만 있었고 하이픈 분절이나 원문자 위치 깨짐은 없었다. 줄바꿈을 공백으로 이었고 원문자 ①~⑤를 {n|...}로 바꿨다. 대시는 추출본대로 starting points—the (U+2014, 앞뒤 공백 없음)로 두었다. study.db는 다른 문항의 [3점] 표시를 유지하므로 29번에 배점 표시가 없는 것은 원문과 같다고 판단했다. 각주는 추출본의 '*cardinal: 아주 중요한'을 그대로 옮겼다."
+ },
+ {
+  "exam_id": "2025-6월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "What makes practicing retrieval so much better than review? One answer comes from the psychologist R. A. Bjork’s concept of desirable difficulty. More difficult retrieval {1|leads} to better learning, provided the act of retrieval is itself successful. Free recall tests, in which students need to recall as much as they can remember without prompting, tend to result in better retention than cued recall tests, in which students {2|give} hints about what they need to remember. Cued recall tests, in turn, are better than recognition tests, such as multiple-choice answers, {3|where} the correct answer needs to be recognized but not generated. Giving someone a test immediately after they learn something improves retention less than giving them a slight delay, long enough so that answers aren’t in mind when they need {4|them}. Difficulty, far from being a barrier to {5|making} retrieval work, may be part of the reason it does so.",
+  "footnotes": [
+   "*retrieval: 불러오기",
+   "**retention: 보유력"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 원문자 ①~⑤가 줄 끝으로 밀려 있었다(예: 'leads to ①', 'give hints ②'). 시험지 PDF 추출본(msc_2025-6-eng.pdf, eng.txt)의 위치(① leads, ② give, ③ where, ④ them, ⑤ making)에 맞춰 바로잡았다. 이렇게 바로잡은 본문은 PDF 추출본과 글자 단위로 완전히 같다(difflib 비율 1.0). study.db의 각주 줄은 '*retrieval: **retention: 불러오기 보유력'으로 뒤섞여 있었다. PDF의 '* retrieval: 불러오기 ** retention: 보유력'에 따라 둘로 나눴고, 별표 뒤 공백은 각주 표기 형식(*낱말: 뜻)에 맞춰 붙였다. 발문에 [3점] 표시는 없다(PDF 확인)."
+ },
+ {
+  "exam_id": "2024-5월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "When a new pathogen emerges, one way it transitions from wherever it has been living into a new host may be the acquisition of new traits. Imagine that in {1|its} hourly struggle to survive over long periods of time and many generations, a fungus species might acquire a protective capsule―a bit of coating―that shields it or even masks it from other microbes or cells. Then it acquires some enzymes that enable it to survive {2|whatever} chemicals other microbes might throw at it. If it can overcome these chemicals, it may also overcome the same or similar chemicals {3|used} as antifungal drugs. Maybe it also evolves to tolerate warmer temperatures. Now we’ve got a yeast that once made its home in an apple tree or in a wetland but {4|that} at this point can live quite happily in our body, hide from our immune system, and disarm our drugs. Then some of us carry it from one country to another and then another, and eventually it finds a host in a hospital patient who has recently received an organ transplant or {5|are} elderly with a weakened immune system.",
+  "footnotes": [
+   "*pathogen: 병원균",
+   "**enzyme: 효소",
+   "***yeast: 효모"
+  ],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "원문이 사실상 하나뿐이다. seb/seb2 study.db는 같은 추출본이고, KCSAT-ENG, csat-analysis, home2, ksatdash에는 이 지문이 없다(pathogen, antifungal, fungus species로 grep). 그래서 교차 대조하지 못했다. 추출본은 줄바꿈만 있었고 하이픈 분절이나 원문자 위치 깨짐은 없었다. 대시는 추출본대로 capsule―a bit of coating―that (U+2015, 앞뒤 공백 없음)로 두었다. 각주 줄은 '* pathogen: 병원균 **enzyme: 효소 ***yeast: 효모'였다. 첫 별표 뒤 공백만 나머지와 같은 형식으로 맞춰 셋으로 나눴다. 시험 귀속 참고: study.db와 EBSi는 이 회차를 '04월'(4월 학평, 경기)로 표기하지만, 레코드는 5월 시행 학평으로 판단했다(questions.json notes 참고). [3점] 표시는 없다. study.db는 다른 문항의 [3점]을 유지한다."
+ },
+ {
+  "exam_id": "2024-3월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "The process of crossing cultures challenges the very basis of who we are as cultural beings. It offers opportunities for new learning and growth. Being “uprooted” from our home {1|brings} us understanding not only of the people and their culture in our new environment, but of ourselves and our home culture. Although the difficulties that can arise from crossing cultures are often shocking, success stories are everywhere. Despite, or rather because of, the suffering and ambivalence we undergo when we cross cultures, we gradually find ourselves {2|uniquely} privileged to define ourselves and others anew with clarity and insight that we could not have cultivated without leaving home. {3|Adapting} to a new and unfamiliar culture, then, is more than survival. It is a life-changing journey. It is a process of “becoming”—personal reinvention, transformation, growth, reaching out beyond the boundaries of our own existence. The process does not require that we abandon our former personalities and the cultures {4|which} we were born. Rather, it compels us to find {5|ourselves} as if for the first time, particularly those “cultural invariants” within us—aspects that we hold dear and refuse to compromise.",
+  "footnotes": [
+   "*ambivalence: 상반되는 감정, 모순"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db와 KCSAT-ENG는 낱말 단위로 완전히 일치하고, 밑줄 범위(brings/uniquely/Adapting/which/ourselves)도 같다. 고친 곳은 두 가지다. (1) study.db의 'life­changing'(소프트 하이픈)과 KCSAT의 'life­-changing'은 원래 하이픈 낱말이므로 life-changing으로 적었다. (2) '“becoming”—' 뒤는 study.db에서 줄바꿈이었고, KCSAT는 '“becoming”— personal'로 대시 뒤에만 공백이 있다. 이 공백은 줄바꿈을 공백으로 이으면서 생긴 것으로 보았다. 같은 글의 'within us—aspects'에 공백이 없는 것과 맞춰 “becoming”—personal로 붙였다. 이 공백 여부는 시험지 PDF가 로컬에 없어 직접 확인하지 못했다. 발문의 '29.다음'은 추출 시 공백이 빠진 것이다. [3점] 표시는 없다."
+ },
+ {
+  "exam_id": "2024-수능",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "A number of studies provide substantial evidence of an innate human disposition to respond differentially to social stimuli. From birth, infants will orient preferentially towards the human face and voice, {1|seeming} to know that such stimuli are particularly meaningful for them. Moreover, they register this connection actively, imitating a variety of facial gestures that are presented to them ― tongue protrusions, lip tightenings, mouth openings. They will even try to match gestures {2|which} they have some difficulty, experimenting with their own faces until they succeed. When they {3|do} succeed, they show pleasure by a brightening of their eyes; when they fail, they show distress. In other words, they not only have an innate capacity for matching their own kinaesthetically experienced bodily movements with {4|those} of others that are visually perceived; they have an innate drive to do so. That is, they seem to have an innate drive to imitate others whom they judge {5|to be} ‘like me’.",
+  "footnotes": [
+   "*innate: 타고난",
+   "**disposition: 성향",
+   "***kinaesthetically: 운동감각적으로"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 원문자 ①~⑤와 대시 ―가 줄 끝으로 밀려 있었다('to them tongue protrusions, lip ―'). 시험지 PDF 추출본의 위치에 맞춰 바로잡았다. 복원한 본문은 시험지 PDF 두 사본과 ksatdash 사본과 글자 단위로 완전히 같다(difflib 비율 1.0). KCSAT-ENG, study.db와는 낱말 단위로 같다. 대시 앞뒤 공백만 원문끼리 다르다. KCSAT-ENG는 'them―tongue'(공백 없음)이고, PDF 추출본 셋(pdftotext, csat-analysis, ksatdash)은 'them ― tongue'이다. PDF bbox상 them과 ― 사이, ― 와 tongue 사이에 각각 약 2.5pt의 간격이 있어 다수를 따라 앞뒤 공백을 두었다. 조판에서 공백 없이 붙일지는 편집 판단에 맡긴다. 각주는 PDF의 '* innate: 타고난 ** disposition: 성향 / *** kinaesthetically: 운동감각적으로'를 셋으로 나눴다. study.db의 각주 줄은 '*innate: **disposition: 타고난 성향'처럼 뒤섞여 있어 PDF를 따랐다. [3점] 표시는 없다(PDF 확인)."
+ },
+ {
+  "exam_id": "2023-10월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Dr. Joseph Bell was a professor of medicine at the University of Edinburgh. His students were amazed by his astonishing powers of observation. He seemed able to determine what patients did for a living, or what illness {1|they} might have, simply by glancing in their direction. One time he concluded that a patient {2|had walked} across a golf course on the way to the doctor, simply by looking at his shoes. One of Bell’s students was particularly impressed with his teacher’s abilities. He filled up notebooks with examples of {3|what} he called Bell’s “eerie trick of spotting details.” The student eventually went into practice himself outside London. When business was slow he filled his spare moments by writing stories. He took Dr. Bell’s powers of perception, and gave them to a character of his own making— a character who made the young doctor, Arthur Conan Doyle, {4|famous} around the world. And so the professor who made even the most complex diagnosis seem “elementary” {5|becoming} the inspiration for fiction’s greatest detective, Sherlock Holmes.",
+  "footnotes": [
+   "*eerie: 오싹한",
+   "**diagnosis: 진단"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db PDF 추출본에서 '④famous / And so the professor who made even the around the world. / most complex ...'로 어순이 뒤섞여 있던 것을 KCSAT-ENG 본문에 맞춰 'famous around the world. And so the professor who made even the most complex diagnosis ...'로 바로잡았다. 그 밖의 단어는 두 원문이 172단어 모두 일치. 'making— a character'의 em dash(U+2014) 뒤 공백은 두 원문이 모두 그렇게 되어 있어 그대로 두었으나, PDF 줄맞춤 때문에 생긴 공백일 가능성은 남아 있다. 발문과 [3점], 각주는 study.db 기준."
+ },
+ {
+  "exam_id": "2024-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Viewing the stress response as a resource can transform the physiology of fear into the biology of courage. It can turn a threat into a challenge and can help you {1|do} your best under pressure. Even when the stress doesn’t feel helpful―as in the case of anxiety―welcoming it can transform {2|it} into something that is helpful: more energy, more confidence, and a greater willingness to take action. You can apply this strategy in your own life anytime you notice signs of stress. When you feel your heart beating or your breath quickening, {3|realizing} that it is your body’s way of trying to give you more energy. If you notice tension in your body, remind yourself {4|that} the stress response gives you access to your strength. Sweaty palms? Remember what it felt like {5|to go} on your first date―palms sweat when you’re close to something you want.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "low",
+  "verify": "problem",
+  "notes": "원문이 KCSAT-ENG 하나뿐이다. study.db에는 2023년 9월 고3 시험이 없고, tymo sept는 2023학년도까지만 있으며, csat-analysis PDF와 home2 자료에도 이 지문이 없어 다른 원문과 대조하지 못했다. KCSAT-ENG는 발문의 배점 표시와 각주를 싣지 않으므로 [3점] 여부와 각주는 확인하지 못했다. 그래서 발문은 [3점] 없이 두고 각주는 빈 배열로 두었다. 실제 시험지에는 각주(예: physiology)가 있었을 수 있으나 확인되지 않아 넣지 않았다. 대시는 원문 그대로 U+2015(―)로 두었다. | 검증: 본문은 수정하지 않았다. KCSAT-ENG kc_id=124 본문(밑줄 표시 제거)과 글자 단위로 같고(146단어), 밑줄 ①do ②it ③realizing ④that ⑤to go는 KCSAT-ENG의 (n)<…> 범위 및 레코드 선지와 같다.; 확정 불가: 지문 원문이 KCSAT-ENG 하나뿐이다. study.db, tymo(june/sept), csat-analysis passages.json과 raw_pdfs, home2/home2_latest, 로컬 PDF 전체(pdftotext)를 검색했지만 이 지문은 없었다.; 확정 불가: 배점 [3점] 여부와 각주(예: physiology) 유무를 확인할 원문이 없다. EBSi 정답표 이미지(mogoans/ans/img/20230906.png)에는 정답(29번 ③)만 있고 배점은 없다. 발문은 [3점] 없이, 각주는 빈 배열로 둔 상태다. 시험지에 넣기 전에 평가원 원본 시험지로 확인해야 한다."
+ },
+ {
+  "exam_id": "2023-7월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "The intelligence of monkeys pales in comparison with that of our closest relatives, the great apes: orangutans, gorillas, chimpanzees, and bonobos, whose brains are twice as {1|large} relative to their body weight. Most primatologists believe the apes acquired their larger brains to help them communicate with and {2|manipulate} their peers. And they certainly do exhibit complex social interactions within their group; they seem capable of feeling empathy, have a self-image, and exhibit a degree of consciousness as they can recognize {3|themselves} in a mirror. But this “social hypothesis” does not explain why it was the great apes that became so clever, rather than monkeys or a group of terrestrial mammals. Nor does it explain why orangutans, who seldom encounter their neighbors, {4|being} so intelligent. It seems likely that some other factor must have been in play {5|that} caused apes to become more intelligent in the first place, and which could subsequently have enabled some members of the group to develop high-level sociality.",
+  "footnotes": [
+   "*primatologist: 영장류 동물학자",
+   "**terrestrial: 육상의"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "두 원문 모두 'self­image', 'high­level'에 소프트 하이픈(U+00AD)이 들어 있어 원래 하이픈 단어인 self-image, high-level로 고쳤다. 이를 빼면 두 원문의 162단어가 모두 일치한다. 발문에 [3점] 표시는 study.db 원문에 없다."
+ },
+ {
+  "exam_id": "2024-6월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Consider The Wizard of Oz as a psychological study of motivation. Dorothy and her three friends work hard to get to the Emerald City, overcoming barriers, persisting against all adversaries. They do so because they expect the Wizard to give {1|them} what they are missing. Instead, the wonderful (and wise) Wizard makes them aware that they, not he, always had the power {2|to fulfill} their wishes. For Dorothy, home is not a place but a feeling of security, of comfort with people she loves; it is wherever her heart is. The courage the Lion wants, the intelligence the Scarecrow longs for, and the emotions the Tin Man dreams of {3|being} attributes they already possess. They need to think about these attributes not as internal conditions but as positive ways {4|in which} they are already relating to others. After all, didn’t they demonstrate those qualities on the journey to Oz, a journey {5|motivated} by little more than an expectation, an idea about the future likelihood of getting something they wanted?",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "problem",
+  "notes": "본문은 KCSAT-ENG와 tymo가 단어 단위로 일치한다. 차이는 두 군데로, tymo의 \"didn't\"와 끝의 '?' 누락이다. tymo는 코퍼스 전체에서 둥근 따옴표를 쓰지 않고 끝 문장부호를 자주 빠뜨리므로, KCSAT-ENG의 'didn’t'와 'wanted?'를 따랐다. 두 원문 모두 발문의 배점 표시와 각주를 싣지 않고, study.db에도 2023년 6월 고3 시험이 없어 [3점] 여부와 각주 유무(예: adversary)를 확인하지 못했다. 그래서 발문은 [3점] 없이, 각주는 빈 배열로 두었다. | 검증: 본문은 수정하지 않았다. KCSAT-ENG kc_id=122 본문(밑줄 표시 제거)과 글자 단위로 같고(169단어), tymo june/2024.json 29번과는 didn't/didn’t와 끝의 '?' 누락 두 곳만 다르다. 이 둘은 tymo의 표기 습관이라 KCSAT-ENG 쪽을 따랐다. 밑줄 ①them ②to fulfill ③being ④in which ⑤motivated는 KCSAT-ENG 및 레코드 선지와 같다.; 확정 불가: 배점 [3점] 여부와 각주(예: adversary) 유무를 확인할 원문이 없다. KCSAT-ENG와 tymo는 배점과 각주를 싣지 않는다. study.db에는 2023년 6월 고3 시험이 없고, 로컬 PDF와 csat-analysis, home2 자료에도 이 지문이 없다. 정답표 이미지(20230601.png)에도 배점은 없다. 발문은 [3점] 없이, 각주는 빈 배열로 둔 상태다. 시험지에 넣기 전에 평가원 원본 시험지로 확인해야 한다."
+ },
+ {
+  "exam_id": "2023-4월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Providing feedback to students is a critical task of teachers. General psychology has shown that knowledge of results is necessary for improving a skill. Advanced musicians are able to self-critique their performances, but developing music students {1|rely} on teachers to supply evaluative feedback. The most constructive feedback is that {2|which} expresses the discrepancies between a student’s performance of a piece of music and an optimal version. Expert teachers give more detailed feedback than general appraisals, and music educators generally recognize that more specific teacher feedback facilitates student performance improvement. Researchers also have explored {3|whether} the feedback of effective teachers is more often positively or negatively expressed, that is, constituting praise or criticism. One might intuitively think that positive comments are more {4|motivated} to students and, as a result, are more associated with effective teaching. The research, however, paints a slightly different picture. Although positive feedback is {5|likely} more helpful with younger learners and in one-on-one instruction, more advanced music students seem to accept and benefit from greater levels of criticism in lessons.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "두 원문의 172단어가 모두 일치한다. study.db 원문에는 29번 각주가 없다. 같은 시험의 다른 문항 각주가 이 문항으로 밀려 왔는지도 확인했는데, '*discrepancy: 불일치'는 24번(Jupiter 지문, 본문에 discrepancy가 있음)의 각주였다. 그래서 각주는 빈 배열로 두었다."
+ },
+ {
+  "exam_id": "2023-3월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "From the 8th to the 12th century CE, while Europe suffered the perhaps overdramatically named Dark Ages, science on planet Earth could be found almost {1|exclusively} in the Islamic world. This science was not exactly like our science today, but it was surely antecedent to {2|it} and was nonetheless an activity aimed at knowing about the world. Muslim rulers granted scientific institutions tremendous resources, such as libraries, observatories, and hospitals. Great schools in all the cities {3|covering} the Arabic Near East and Northern Africa (and even into Spain) trained generations of scholars. Almost every word in the modern scientific lexicon that begins with the prefix “al” {4|owes} its origins to Islamic science—algorithm, alchemy, alcohol, alkali, algebra. And then, just over 400 years after it started, it ground to an apparent halt, and it would be a few hundred years, give or take, before {5|that} we would today unmistakably recognize as science appeared in Europe—with Galileo, Kepler, and, a bit later, Newton.",
+  "footnotes": [
+   "*antecedent: 선행하는",
+   "**lexicon: 어휘 (목록)",
+   "***give or take: 대략"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db(두 사본)와 KCSAT-ENG 본문이 줄바꿈만 빼고 글자 단위로 같다(python 정규화 비교 결과 일치). 밑줄 5개(exclusively, it, covering, owes, that)는 KCSAT-ENG의 (n)<word> 범위와 레코드의 ①~⑤가 같다. ⑤는 시험지대로 틀린 형태 that을 그대로 두었다. 발문의 [3점]과 각주 3개는 study.db 시험지 추출본을 따랐다. 각주 '어휘 (목록)'의 괄호 앞 공백은 PDF 추출본 그대로이고, 다른 원문이 없어 확인하지 못했다. tymo와 csat-analysis에는 이 시험이 없다."
+ },
+ {
+  "exam_id": "2023-수능",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Trends constantly suggest new opportunities for individuals to restage themselves, representing occasions for change. To understand how trends can ultimately give individuals power and freedom, one must first discuss fashion’s importance as a basis for change. The most common explanation offered by my informants as to why fashion is so appealing is {1|that} it constitutes a kind of theatrical costumery. Clothes are part of how people present {2|them} to the world, and fashion locates them in the present, relative to what is happening in society and to fashion’s own history. As a form of expression, fashion contains a host of ambiguities, enabling individuals to recreate the meanings {3|associated} with specific pieces of clothing. Fashion is among the simplest and cheapest methods of self-expression: clothes can be {4|inexpensively} purchased while making it easy to convey notions of wealth, intellectual stature, relaxation or environmental consciousness, even if none of these is true. Fashion can also strengthen agency in various ways, {5|opening up} space for action.",
+  "footnotes": [
+   "*stature: 능력"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "PDF 추출본에서는 원문자가 줄 끝으로 밀려 있었다(예: 'is that it ① / constitutes', 'purchased ④'). 위치는 KCSAT-ENG의 (n)<word>, ksatdash의 원문자 표시(①that ②them ③associated ④inexpensively ⑤opening up), 레코드 ①~⑤ 세 가지가 서로 같아서 그대로 따랐다. ②는 시험지대로 틀린 형태 them을 두었다. 본문은 study.db, KCSAT-ENG, tymo, ksatdash가 모두 일치한다. tymo는 곧은 따옴표(')를 쓰고 마지막 마침표가 빠져 있어, 다수인 ’와 마침표를 따랐다. 발문은 PDF 추출본의 '중 , ... 것은 ?' 띄어쓰기 깨짐을 바로잡았다. 같은 시험지 30번에는 '[3 점 ]'이 있고 29번에는 없으므로 [3점]을 붙이지 않았다. 각주는 study.db의 '*stature: 능력'을 따랐다(ksatdash는 '* stature: 능력')."
+ },
+ {
+  "exam_id": "2022-10월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The idea that leaders inherently possess certain physical, intellectual, or personality traits that distinguish them from nonleaders {1|was} the foundational belief of the trait-based approach to leadership. This approach dominated leadership research from the late 1800s until the mid-1940s and has experienced a resurgence of interest in the last couple of decades. Early trait theorists believed that some individuals are born with the traits that allow {2|them} to become great leaders. Thus, early research in this area often presented the widely stated argument {3|that} “leaders are born, not made.” Also, some of the earliest leadership studies were grounded in what {4|referred} to as the “great man” theory because researchers at the time focused on identifying traits of highly visible leaders in history who were typically male and associated with the aristocracy or political or military leadership. In more recent history, numerous authors have acknowledged that there are many enduring qualities, {5|whether} innate or learned, that contribute to leadership potential. These traits include such things as drive, self-confidence, cognitive ability, conscientiousness, determination, intelligence, and integrity.",
+  "footnotes": [
+   "*resurgence: 되살아남",
+   "**aristocracy: 귀족"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db와 KCSAT-ENG 본문이 글자 단위로 같다. 두 원문 모두 'trait‑based'와 'mid‑1940s'에 줄바꿈 방지 하이픈(U+2011)을 쓴다. 한글 글꼴에 이 글리프가 없어 조판할 때 빈 네모로 나올 수 있으므로 일반 하이픈 '-'로 바꿨다. 보이는 모양은 같고, 같은 지문의 self-confidence도 일반 하이픈이다. ④는 시험지대로 틀린 형태 referred를 두었다. 발문 [3점]과 각주 2개는 study.db 시험지 추출본을 따랐다. 이 시험은 tymo와 csat-analysis에 없어 원문은 두 가지뿐이다."
+ },
+ {
+  "exam_id": "2023-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Recognizing ethical issues is the most important step in understanding business ethics. An ethical issue is an identifiable problem, situation, or opportunity that requires a person to choose from among several actions that may {1|be evaluated} as right or wrong, ethical or unethical. {2|Learn} how to choose from alternatives and make a decision requires not only good personal values, but also knowledge competence in the business area of concern. Employees also need to know when to rely on their organizations’ policies and codes of ethics or {3|have} discussions with co-workers or managers on appropriate conduct. Ethical decision making is not always easy because there are always gray areas {4|that} create dilemmas, no matter how decisions are made. For instance, should an employee report on a co-worker engaging in time theft? Should a salesperson leave out facts about a product’s poor safety record in his presentation to a customer? Such questions require the decision maker to evaluate the ethics of his or her choice and decide {5|whether} to ask for guidance.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "PDF 추출본에서는 원문자가 줄 끝으로 밀려 있었다(예: 'evaluated as ①', 'no matter ④ / how'). 밑줄 범위는 KCSAT-ENG의 (n)<word>와 레코드 ①~⑤를 따랐다. ①은 'be evaluated' 두 단어다. ②는 시험지대로 틀린 형태 Learn을 두었다. 본문은 study.db, KCSAT-ENG, tymo가 일치한다. tymo는 곧은 따옴표와 마지막 마침표 누락이 달라서 다수 쪽을 따랐다. study.db의 '?' 뒤 불필요한 줄바꿈은 없앴다. 같은 시험지 29번 발문에는 [3점]이 없어 붙이지 않았다. 각주도 없다."
+ },
+ {
+  "exam_id": "2022-7월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The spider chart, also called a radar chart, is a form of line graph. It helps the researcher to represent their data in a chart {1|that} shows the relative size of a response on one scale for interrelated variables. Like the bar chart, the data needs to have one scale which is common to all variables. The spider chart is drawn with the variables spanning the chart, {2|creating} a spider web. An example of this is seen in a research study looking at self-reported confidence in year 7 students across a range of subjects {3|have taught} in their first term in secondary school. The researcher takes the responses from a sample group and {4|calculates} the mean to plot on the spider chart. The spider chart allows the researcher to easily compare and contrast the confidence level in different subjects for the sample group. The chart, like the pie chart, can then be broken down for different groups of students within the study {5|to elicit} further analysis of findings.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "하이픈 표기가 원문마다 달랐다. study.db는 'self­reported'(소프트 하이픈만), KCSAT-ENG는 'self­-reported'(소프트 하이픈과 하이픈)였다. 원래 하이픈 단어이므로 'self-reported'로 바로잡았다. 이 밖에는 두 원문이 글자 단위로 같다. ③은 시험지대로 틀린 형태 have taught를 두었다. 발문 [3점]은 study.db 시험지 추출본을 따랐다. 추출본 끝에 각주가 없으므로 footnotes는 비웠다. 이 시험은 tymo와 csat-analysis에 없어 원문은 두 가지뿐이다."
+ },
+ {
+  "exam_id": "2023-6월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Ecosystems differ in composition and extent. They can be defined as ranging from the communities and interactions of organisms in your mouth or {1|those} in the canopy of a rain forest to all those in Earth’s oceans. The processes {2|governing} them differ in complexity and speed. There are systems that turn over in minutes, and there are others {3|which} rhythmic time extends to hundreds of years. Some ecosystems are extensive (‘biomes’, such as the African savanna); some cover regions (river basins); many involve clusters of villages (micro-watersheds); others are confined to the level of a single village (the village pond). In each example there is an element of indivisibility. Divide an ecosystem into parts by creating barriers, and the sum of the productivity of the parts will typically be found to be lower than the productivity of the whole, other things {4|being} equal. The mobility of biological populations is a reason. Safe passages, for example, enable migratory species {5|to survive}.",
+  "footnotes": [
+   "*canopy: 덮개",
+   "**basin: 유역"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 본문과 KCSAT-ENG 본문이 문장부호까지 낱말 단위로 완전히 일치함(스크립트로 확인). tymo도 내용은 같지만 곧은 따옴표(')를 쓰고 끝 마침표가 빠져 있어 둥근 따옴표(‘ ’)와 마침표가 있는 study.db와 KCSAT-ENG 쪽을 따름. study.db 추출본에서 원문자 ①~⑤가 줄 끝으로 밀려 있었으나 밑줄 위치는 KCSAT-ENG의 (n)<word> 범위와 레코드 선지(those/governing/which/being/to survive)를 따름. 발문은 추출본의 '중 , ... ? [3 점 ]' 공백 깨짐을 표준 표기로 바로잡음. 각주는 추출본에 '*canopy: **basin: 덮개 유역'으로 뒤섞여 있던 것을 '*canopy: 덮개', '**basin: 유역'으로 다시 짝지음. 각주 원문은 study.db 하나뿐이지만 짝짓기는 명확함."
+ },
+ {
+  "exam_id": "2022-4월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "The actual problems with monopolies are caused by statism, not capitalism. Under a statist social system, taxes, subsidies, tariffs, and regulations often serve to protect existing large players in the marketplace. Those players often use crony tactics to retain or expand the protections: a new tariff preventing foreign competition, a subsidy making it harder for new players {1|to compete} with them, or a regulatory measure that a large company has the resources to comply with. Under a capitalist social system, on the other hand, the government has no say in how {2|dominantly} a company may become in its industry or how companies take over and merge with one another. Furthermore, a capitalist society doesn’t have rights-violating taxes, tariffs, subsidies, or regulations {3|favoring} anybody nor does it have antitrust laws. Under capitalism, dominance can only be achieved by becoming really good at {4|what} you’re doing. And to maintain dominance, you have to continue to stay ahead of the competition, which sees your dominance and profits as a sign {5|that} there is money to be made by others as well.",
+  "footnotes": [
+   "*statism: 국가 통제주의",
+   "**crony: 정실(사사로운 정에 이끌리는 일)",
+   "***antitrust law: 독점 금지법"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 본문과 KCSAT-ENG 본문이 문장부호까지 낱말 단위로 완전히 일치함. 발문과 각주의 원문은 study.db 하나뿐임. 발문에 [3점] 표시가 없음. study.db의 같은 시험(exam_id=150)에서는 다른 문항(13, 14, 15, 21번 등)에 [3점]이 추출되어 있어 29번은 2점 문항으로 판단했지만, 시험지 원본 PDF로 따로 확인하지는 못함. 'rights-violating'은 원래 하이픈이 있는 단어로 그대로 둠."
+ },
+ {
+  "exam_id": "2022-3월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "We don’t know what ancient Greek music sounded like, because there are no examples of it in written or notated form, nor {1|has it} survived in oral tradition. Much of it was probably improvised anyway, within certain rules and conventions. So we are forced largely to guess at its basis from the accounts of writers such as Plato and Aristotle, who were generally more concerned with writing about music as a philosophical and ethical exercise {2|as} with providing a technical primer on its practice. It seems Greek music was predominantly a vocal form, {3|consisting} of sung verse accompanied by instruments such as the lyre or the plucked kithara (the root of ‘guitar’). In fact, Plato considered music in which the lyre and flute played alone and not as the accompaniment of dance or song {4|to be} ‘exceedingly coarse and tasteless’. The melodies seem to have had a very limited pitch range, since the instruments {5|generally} span only an octave, from one E (as we’d now define it) to the next.",
+  "footnotes": [
+   "*primer: 입문서",
+   "**lyre: 수금(竪琴)",
+   "***coarse: 조잡한"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 본문과 KCSAT-ENG 본문이 문장부호까지 낱말 단위로 완전히 일치함. 발문([3점] 포함)과 각주의 원문은 study.db 하나뿐임(csat-analysis와 tymo에는 이 시험이 없음). ① 밑줄 범위는 KCSAT-ENG의 (1)<has it>를 따름."
+ },
+ {
+  "exam_id": "2022-수능",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Like whole individuals, cells have a life span. During their life cycle (cell cycle), cell size, shape, and metabolic activities can change dramatically. A cell is “born” as a twin when its mother cell divides, {1|producing} two daughter cells. Each daughter cell is smaller than the mother cell, and except for unusual cases, each grows until it becomes as large as the mother cell {2|was}. During this time, the cell absorbs water, sugars, amino acids, and other nutrients and assembles them into new, living protoplasm. After the cell has grown to the proper size, its metabolism shifts as it either prepares to divide or matures and {3|differentiates} into a specialized cell. Both growth and development require a complex and dynamic set of interactions involving all cell parts. {4|What} cell metabolism and structure should be complex would not be surprising, but actually, they are rather simple and logical. Even the most complex cell has only a small number of parts, each {5|responsible} for a distinct, well-defined aspect of cell life.",
+  "footnotes": [
+   "*metabolic: 물질대사의",
+   "**protoplasm: 원형질"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db에는 이 시험이 없어 csat-analysis 시험지 PDF 추출본을 원문 A 대신 씀. PDF 추출본과 KCSAT-ENG 본문이 문장부호까지 낱말 단위로 완전히 일치함. tymo는 곧은 따옴표(\"born\")를 쓰고 끝 마침표가 빠져 있어 둥근 따옴표(“born”)를 쓴 PDF와 KCSAT-ENG를 따름. 발문 [3점]과 각주 두 개는 PDF 추출본과 csat-analysis passages.json이 서로 일치함."
+ },
+ {
+  "exam_id": "2021-10월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "According to its dictionary definition, an anthem is both a song of loyalty, often to a country, and a piece of ‘sacred music’, definitions that are both applicable in sporting contexts. This genre is dominated, although not exclusively, by football and has produced a number of examples {1|where} popular songs become synonymous with the club and are enthusiastically adopted by the fans. More than this they are often spontaneous expressions of loyalty and identity and, according to Desmond Morris, have ‘reached the level of something {2|approached} a local art form’. A strong element of the appeal of such sports songs {3|is} that they feature ‘memorable and easily sung choruses in which fans can participate’. This is a vital part of the team’s performance {4|as} it makes the fans’ presence more tangible. This form of popular culture can be said {5|to display} pleasure and emotional excess in contrast to the dominant culture which tends to maintain ‘respectable aesthetic distance and control’.",
+  "footnotes": [
+   "*synonymous: 밀접한 연관을 갖는",
+   "**tangible: 확실한"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 본문, csat-analysis 시험지 PDF 추출본, KCSAT-ENG 본문 세 원문이 문장부호까지 낱말 단위로 완전히 일치함. 발문 [3점]과 각주 두 개도 study.db와 PDF가 서로 일치함. 'More than this' 뒤에 쉼표가 없는 것은 세 원문 모두 같으므로 원문 그대로 둠."
+ },
+ {
+  "exam_id": "2022-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Accepting whatever others are communicating only pays off if their interests correspond to ours―think cells in a body, bees in a beehive. As far as communication between humans is concerned, such commonality of interests {1|is} rarely achieved; even a pregnant mother has reasons to mistrust the chemical signals sent by her fetus. Fortunately, there are ways of making communication work even in the most adversarial of relationships. A prey can convince a predator not to chase {2|it}. But for such communication to occur, there must be strong guarantees {3|which} those who receive the signal will be better off believing it. The messages have to be kept, on the whole, {4|honest}. In the case of humans, honesty is maintained by a set of cognitive mechanisms that evaluate {5|communicated} information. These mechanisms allow us to accept most beneficial messages―to be open―while rejecting most harmful messages―to be vigilant.",
+  "footnotes": [
+   "*fetus: 태아",
+   "**adversarial: 반대자의",
+   "***vigilant: 경계하는"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "본문은 KCSAT-ENG와 글자 단위로 완전히 일치하고, 원본 PDF 텍스트와도 단어 단위로 일치한다. 대시는 원본 PDF의 U+2015(―)이다. tymo는 대시 3곳이 빠져 있고 study.db는 대시가 줄 끝으로 밀려 있어서 PDF 기준으로 바로잡았다. PDF의 -bbox 좌표를 보면 대시 앞뒤 간격(약 2pt)이 낱말 사이 간격(4~6pt)보다 좁다. 그래서 대시 양옆에 공백을 두지 않았다(ours―think, messages―to be open―while). 밑줄 범위 5곳은 렌더링한 PDF 이미지에서 확인했다. 발문의 '틀린'은 원본에서 밑줄이 그어져 있는데, 텍스트로는 표시하지 않았다. 원본에 [3점] 표시는 없다."
+ },
+ {
+  "exam_id": "2021-7월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The idea that people {1|selectively} expose themselves to news content has been around for a long time, but it is even more important today with the fragmentation of audiences and the proliferation of choices. Selective exposure is a psychological concept that says people seek out information that conforms to their existing belief systems and {2|avoid} information that challenges those beliefs. In the past when there were few sources of news, people could either expose themselves to mainstream news—where they would likely see beliefs {3|expressed} counter to their own—or they could avoid news altogether. Now with so many types of news constantly available to a full range of niche audiences, people can easily find a source of news {4|that} consistently confirms their own personal set of beliefs. This leads to the possibility of creating many different small groups of people with each strongly {5|believes} they are correct and everyone else is wrong about how the world works.",
+  "footnotes": [
+   "*fragmentation: 분열",
+   "**proliferation: 급증",
+   "***niche: 틈새"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "본문은 KCSAT-ENG와 글자 단위로 완전히 일치하고, study.db 및 원본 PDF 텍스트와도 일치한다. 대시는 원본 PDF의 em dash(U+2014 —)이다. bbox 간격으로 보면 앞뒤에 공백이 없어서 news—where, own—or로 두었다. csat-analysis의 passages.json에는 대시 앞뒤에 공백이 들어가 있는데, 이는 추출 과정에서 생긴 것으로 보고 따르지 않았다. 밑줄 범위 5곳은 PDF 이미지에서 확인했다."
+ },
+ {
+  "exam_id": "2022-6월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Most historians of science point to the need for a reliable calendar to regulate agricultural activity as the motivation for learning about what we now call astronomy, the study of stars and planets. Early astronomy provided information about when to plant crops and gave humans {1|their} first formal method of recording the passage of time. Stonehenge, the 4,000-year-old ring of stones in southern Britain, {2|is} perhaps the best-known monument to the discovery of regularity and predictability in the world we inhabit. The great markers of Stonehenge point to the spots on the horizon {3|where} the sun rises at the solstices and equinoxes―the dates we still use to mark the beginnings of the seasons. The stones may even have {4|been used} to predict eclipses. The existence of Stonehenge, built by people without writing, bears silent testimony both to the regularity of nature and to the ability of the human mind to see behind immediate appearances and {5|discovers} deeper meanings in events.",
+  "footnotes": [
+   "*monument: 기념비",
+   "**eclipse: (해･달의) 식(蝕)",
+   "***testimony: 증언"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 마지막 문장 어순이 깨져 있었다('see behind discovers deeper meanings in immediate appearances and events'). KCSAT-ENG, tymo, csat-analysis, 원본 PDF가 모두 'see behind immediate appearances and discovers deeper meanings in events'로 같아서 이 어순을 따랐다. tymo에서 빠진 대시(―, U+2015)는 PDF와 KCSAT-ENG에 따라 복원했고, 앞뒤 공백 없이 equinoxes―the로 두었다. ④의 밑줄 범위가 'been used' 두 낱말이라는 것은 PDF 이미지에서 확인했다. 각주의 가운뎃점은 원본 PDF 텍스트 레이어의 U+FF65(･)를 그대로 두었다. 조판 글꼴에서 깨지면 ·(U+00B7)로 바꿔도 된다. 원본에 [3점] 표시는 없다."
+ },
+ {
+  "exam_id": "2021-4월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The world’s first complex writing form, Sumerian cuneiform, followed an evolutionary path, moving around 3500 BCE from pictographic to ideographic representations, from the depiction of objects to {1|that} of abstract notions. Sumerian cuneiform was a linear writing system, its symbols usually {2|set} in columns, read from top to bottom and from left to right. This regimentation was a form of abstraction: the world is not a linear place, and objects do not organize {3|themselves} horizontally or vertically in real life. Early rock paintings, thought to have been created for ritual purposes, were possibly shaped and organized {4|to follow} the walls of the cave, or the desires of the painters, who may have organized them symbolically, or artistically, or even randomly. Yet after cuneiform, virtually every form of script that has emerged has been set out in rows with a clear beginning and endpoint. So {5|uniformly} is this expectation, indeed, that the odd exception is noteworthy, and generally established for a specific purpose.",
+  "footnotes": [
+   "*cuneiform: 쐐기 문자",
+   "**regimentation: 조직화"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "본문은 KCSAT-ENG, study.db, 원본 PDF 텍스트 세 가지가 모두 일치한다. 아포스트로피는 원문의 ’(U+2019)를 그대로 두었다(world’s). csat-analysis의 passages.json에는 이 시험의 29번 항목이 없어서 원본 PDF로 직접 대조했다. ④의 밑줄 범위가 'to follow'라는 것은 PDF 이미지에서 확인했다."
+ },
+ {
+  "exam_id": "2021-3월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The formats and frequencies of traditional trade encompass a spectrum. At the simplest level {1|are} the occasional trips made by individual !Kung and Dani to visit their individual trading partners in other bands or villages. {2|Suggestive} of our open-air markets and flea markets were the occasional markets at which Sio villagers living on the coast of northeast New Guinea met New Guineans from inland villages. Up to a few dozen people from each side {3|sat} down in rows facing each other. An inlander pushed forward a net bag containing between 10 and 35 pounds of taro and sweet potatoes, and the Sio villager sitting opposite responded by offering a number of pots and coconuts {4|judging} equivalent in value to the bag of food. Trobriand Island canoe traders conducted similar markets on the islands {5|that} they visited, exchanging utilitarian goods (food, pots, and bowls) by barter, at the same time as they and their individual trade partners gave each other reciprocated gifts of luxury items (shell necklaces and armbands).",
+  "footnotes": [
+   "*taro: (식물) 타로토란",
+   "**reciprocate: 답례하다"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "'open-air'가 원본 PDF와 study.db에는 소프트 하이픈(U+00AD)으로 들어 있다. KCSAT-ENG에는 소프트 하이픈과 하이픈이 겹쳐 있고, csat-analysis에는 'openair'로 하이픈이 빠져 있다. PDF 이미지에 open-air로 찍혀 있어서 일반 하이픈 '-'로 바로잡았다. 이 한 곳을 빼면 KCSAT-ENG와 글자 단위로 일치한다. '!Kung'의 느낌표는 원문 그대로다. 밑줄 범위 5곳은 PDF 이미지에서 확인했다."
+ },
+ {
+  "exam_id": "2021-수능",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Regulations covering scientific experiments on human subjects are strict. Subjects must give their informed, written consent, and experimenters must submit their proposed experiments to thorough examination by overseeing bodies. Scientists who experiment on themselves can, functionally if not legally, avoid the restrictions {1|associated} with experimenting on other people. They can also sidestep most of the ethical issues involved: nobody, presumably, is more aware of an experiment’s potential hazards than the scientist who devised {2|it}. Nonetheless, experimenting on oneself remains {3|deeply} problematic. One obvious drawback is the danger involved; knowing that it exists {4|does} nothing to reduce it. A less obvious drawback is the limited range of data that the experiment can generate. Human anatomy and physiology vary, in small but significant ways, according to gender, age, lifestyle, and other factors. Experimental results derived from a single subject are, therefore, of limited value; there is no way to know {5|what} the subject’s responses are typical or atypical of the response of humans as a group.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "study.db에 이 시험(exam_id 142, 고3 2020-11 수능)의 문항이 없고 raw_pdfs에도 시험지 PDF가 없다. 시험지 원본 추출본 없이 KCSAT-ENG와 tymo 두 텍스트로 복원했다. 본문은 두 원문이 글자 단위로 같다. tymo는 아포스트로피를 곧은 따옴표(')로 적고 마지막 마침표가 빠져 있어 KCSAT-ENG의 둥근 아포스트로피(’)와 마침표를 따랐다. 발문의 [3점]은 레코드 notes에 남은 MK316 시험지 텍스트 확인 기록을 근거로 넣었다. 각주는 두 원문 모두 지문 본문만 담고 있어 시험지에 각주가 있었는지 확인하지 못했다. 그래서 빈 배열로 두었다. | 검증: 변경 없음. 본문은 KCSAT-ENG kc_id=133과 단어 단위 diff에서 완전히 같다. tymo와 다른 곳은 곧은 아포스트로피 2곳(experiment's, subject's)과 마지막 마침표 누락뿐이며 tymo의 표기 습관이다. 밑줄 ①associated ②it ③deeply ④does ⑤what은 KCSAT (n)<word>, 레코드 선지와 번호까지 같다.; 참고(미확정): 각주 유무는 로컬 원문으로 확인할 수 없다. KCSAT-ENG와 tymo는 모든 지문에서 각주를 빼고 적으며, study.db에는 이 시험(exam 142)이 없다. 그래서 각주는 빈 배열로 두었다. [3점]은 레코드 notes에 남은 MK316 2021.12.txt 발문 기록을 근거로 유지했다."
+ },
+ {
+  "exam_id": "2020-10월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Mathematical practices and discourses should be situated within cultural contexts, student interests, and real-life situations {1|where} all students develop positive identities as mathematics learners. Instruction in mathematics skills in isolation and devoid of student understandings and identities renders them {2|helpless} to benefit from explicit instruction. Thus, we agree that explicit instruction benefits students but propose that incorporating culturally relevant pedagogy and consideration of nonacademic factors that {3|promoting} learning and mastery must enhance explicit instruction in mathematics instruction. Furthermore, teachers play a critical role in developing environments {4|that} encourage student identities, agency, and independence through discourses and practices in the classroom. Students who are actively engaged in a contextualized learning process are in control of the learning process and are able to make connections with past learning experiences {5|to foster} deeper and more meaningful learning.",
+  "footnotes": [
+   "*render: (어떤 상태가 되게) 만들다",
+   "**pedagogy: 교수법"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "두 원문(study.db PDF 추출본, KCSAT-ENG)이 줄바꿈만 빼면 글자 단위로 같다. real­life의 소프트 하이픈(U+00AD)은 일반 하이픈으로 바꿔 real-life로 적었다. 줄바꿈은 제거했다. KCSAT-ENG에도 같은 소프트 하이픈이 있어 PDF 추출 계열로 보이며, 서로 독립된 원문은 아닐 수 있다. tymo에는 이 학평이 없다."
+ },
+ {
+  "exam_id": "2021-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Competitive activities can be more than just performance showcases {1|which} the best is recognized and the rest are overlooked. The provision of timely, constructive feedback to participants on performance {2|is} an asset that some competitions and contests offer. In a sense, all competitions give feedback. For many, this is restricted to information about whether the participant is an award- or prizewinner. The provision of that type of feedback can be interpreted as shifting the emphasis to demonstrating superior performance but not {3|necessarily} excellence. The best competitions promote excellence, not just winning or “beating” others. The emphasis on superiority is what we typically see as {4|fostering} a detrimental effect of competition. Performance feedback requires that the program go beyond the “win, place, or show” level of feedback. Information about performance can be very helpful, not only to the participant who does not win or place but also to those who {5|do}.",
+  "footnotes": [
+   "*foster: 조장하다",
+   "**detrimental: 유해한"
+  ],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "(1) 원문끼리 다른 곳이 한 군데 있다. study.db와 KCSAT-ENG는 'an award-or prizewinner'(공백 없음), tymo와 sat_problems.csv는 'an award- or prizewinner'(공백 있음)다. 2대2 동률이다. study.db와 KCSAT-ENG는 둘 다 PDF 추출 계열이라 공백이 빠졌을 수 있다. 영어 표기 관례(접미 공통 하이픈 뒤 공백)도 고려해 'award- or'로 적었다. 시험지 원본으로 확인하지 못했으니 조판 전에 이 부분을 확인해야 한다. (2) PDF 추출본에서 원문자가 줄 끝으로 밀려 있었다(예: 'the rest are ①'). 밑줄 범위와 번호는 KCSAT-ENG의 (n)<word>와 레코드를 따랐다. (3) 발문 '중 , … 것은 ? [3 점 ]'의 추출 공백을 바로잡았다. (4) 각주 줄이 '*foster: **detrimental: 조장하다 유해한'으로 뒤섞여 있어 '*foster: 조장하다', '**detrimental: 유해한'으로 바로잡았다. (5) tymo의 곧은 따옴표 대신 study.db·KCSAT-ENG·csv의 둥근 따옴표(“ ”)를 따랐다. | 검증: 변경 없음. 본문은 sat_problems.csv(2021 9월)와 단어 단위로 완전히 같다. study.db, KCSAT와 다른 곳은 'award- or' 한 곳뿐이다. tymo와 다른 곳은 곧은 따옴표와 마지막 마침표 누락뿐이다.; 'award- or prizewinner'(공백 있음) 채택이 옳다는 근거를 추가로 확인했다. KCSAT-ENG는 다른 지문에서도 접미 공통 하이픈 뒤 공백을 빠뜨린다(예: 'fat-and sugar-rich', 'Nineteenth-and twentieth-century'). 따라서 study.db·KCSAT의 'award-or'는 PDF 추출 계열의 공백 누락이다. 서로 다른 계열인 tymo(곧은 따옴표)와 csv(둥근 따옴표)가 둘 다 'award- or'로 적었다.; 밑줄 ①which ②is ③necessarily ④fostering ⑤do는 KCSAT (n)<word>, 레코드, csv 대괄호 표시와 같다. 발문 [3점]은 study.db '[3 점 ]'을 바로잡은 것이다. 각주 2개를 '*foster: 조장하다', '**detrimental: 유해한'으로 나눈 것도 맞다."
+ },
+ {
+  "exam_id": "2020-7월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Metacognition simply means “thinking about thinking,” and it is one of the main distinctions between the human brain and that of other species. Our ability to stand high on a ladder above our normal thinking processes and {1|evaluate} why we are thinking as we are thinking is an evolutionary marvel. We have this ability {2|because} the most recently developed part of the human brain―the prefrontal cortex―enables self-reflective, abstract thought. We can think about ourselves as if we are not part of {3|ourselves}. Research on primate behavior indicates that even our closest cousins, the chimpanzees, {4|lacking} this ability (although they possess some self-reflective abilities, like being able to identify themselves in a mirror instead of thinking the reflection is another chimp). The ability is a double-edged sword, because while it allows us to evaluate why we are thinking {5|what} we are thinking, it also puts us in touch with difficult existential questions that can easily become obsessions.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "(1) PDF 추출본에서 'cortex―'가 줄 끝에 있다. KCSAT-ENG와 study.db sentences 표는 줄을 이으면서 공백을 넣어 'cortex― enables'로 적었다. 앞쪽 'brain―the'가 공백 없는 대시(U+2015)이므로 같은 방식으로 보고 'cortex―enables'로 붙였다. 시험지 원본으로 확인하지는 못했다. (2) self­reflective(2곳)와 double­edged의 소프트 하이픈(U+00AD)을 일반 하이픈으로 바꿨다. (3) 대시는 원문 그대로 ―(U+2015)로 두었다. (4) 발문에 [3점] 표시가 없다(study.db 추출본 기준). 각주도 없다. tymo에는 이 학평이 없어 원문은 두 가지뿐이고, 둘 다 PDF 추출 계열로 보인다."
+ },
+ {
+  "exam_id": "2021-6월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "People from more individualistic cultural contexts tend to be motivated to maintain self-focused agency or control {1|as} these serve as the basis of one’s self-worth. With this form of agency comes the belief that individual successes {2|depending} primarily on one’s own abilities and actions, and thus, whether by influencing the environment or trying to accept one’s circumstances, the use of control ultimately centers on the individual. The independent self may be more {3|driven} to cope by appealing to a sense of agency or control. However, people from more interdependent cultural contexts tend to be less focused on issues of individual success and agency and more motivated towards group goals and harmony. Research has shown {4|that} East Asians prefer to receive, but not seek, more social support rather than seek personal control in certain cases. Therefore, people {5|who} hold a more interdependent self-construal may prefer to cope in a way that promotes harmony in relationships.",
+  "footnotes": [
+   "*self-construal: 자기 구성"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "네 원문의 본문이 일치한다. tymo는 곧은 아포스트로피를 쓰고 마지막 마침표가 빠져 있어, study.db·KCSAT-ENG·csv의 둥근 아포스트로피(’)를 따랐다. PDF 추출본에서 원문자가 줄 끝으로 밀려 있었다(예: 'control as these ①'). 밑줄 범위는 KCSAT-ENG의 (n)<word>와 레코드를 따랐다. 발문 '중 , … 것은 ?'의 추출 공백을 바로잡았다. study.db 추출본에 [3점] 표시가 없어 배점 표시는 넣지 않았다."
+ },
+ {
+  "exam_id": "2020-3월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "When children are young, much of the work is demonstrating to them that they {1|do} have control. One wise friend of ours who was a parent educator for twenty years {2|advises} giving calendars to preschool-age children and writing down all the important events in their life, in part because it helps children understand the passage of time better, and how their days will unfold. We can’t overstate the importance of the calendar tool in helping kids feel in control of their day. Have them {3|cross} off days of the week as you come to them. Spend time going over the schedule for the day, giving them choice in that schedule wherever {4|possible}. This communication expresses respect ―they see that they are not just a tagalong to your day and your plans, and they understand what is going to happen, when, and why. As they get older, children will then start to write in important things for themselves, {5|it} further helps them develop their sense of control.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "problem",
+  "notes": "지문 전문을 담은 원문이 KCSAT-ENG 하나뿐이다. QG와 EG 파일은 같은 데이터셋이라 독립 대조가 되지 않는다. study.db에는 고3 2020-03 시험(exam_id 137)의 문항 행이 없고, csat-analysis·tymo·DeepLearningProject에도 이 지문이 없다. home2 ESSENTIAL 발췌 두 문장은 글자가 같았다(이 파일은 아포스트로피가 곧은따옴표). 'preschool­age'의 소프트 하이픈은 일반 하이픈으로 바꿨다(home2도 preschool-age). 'respect ―they'의 대시(U+2015)와 앞뒤 띄어쓰기는 KCSAT-ENG 그대로 두었다. 원본 시험지에서는 대시 뒤에도 공백이 있었을 수 있지만 확인하지 못했다. 발문의 배점 표시 [3점] 여부와 각주(예: tagalong 풀이) 유무는 로컬 자료로 확인할 수 없어 [3점]은 빼고 각주는 빈 배열로 두었다. 정답표 이미지(20200312)에는 배점 칸이 없다. 밑줄 ①~⑤와 정답 ⑤(it)는 레코드와 KCSAT-ENG가 일치한다. | 검증: 수정 없음: 지문 본문은 KCSAT-ENG kc_id=103의 QG 본문, QG 원문(⑤ which만 다름), EG 본문과 단어 단위로 일치한다. 차이는 'preschool­age'(소프트 하이픈)를 'preschool-age'로 바꾼 것 하나이고, home2 ESSENTIAL_UNIT-07_08에도 preschool-age로 되어 있어 이 수정은 맞다.; 밑줄 ①do ②advises ③cross ④possible ⑤it의 범위와 번호가 레코드, KCSAT 본문, KCSAT 보기와 모두 같다. 정답 ⑤는 정답표 20200312와 일치한다.; 확인 불가(원문 부족): 지문 전문을 담은 원문이 KCSAT-ENG 하나뿐이다. QG와 EG는 같은 데이터셋이다. study.db의 고3 2020-03(exam 137)은 문항이 0건이고, csat-analysis·tymo·csv·ksatdash에도 이 지문이 없다. 독립 원문으로 확인된 것은 home2에 있는 두 문장(calendar tool~cross, advises~preschool-age)뿐이다.; 'respect ―they'(U+2015, 앞만 띄움)는 KCSAT-ENG 그대로 두었다. 같은 ' ―word' 형태가 KCSAT 다른 지문에도 있고, 그 가운데 6건(2016-07, 2019-04, 2022-04, 2015-03, 2020-07, 2023-04 등)은 study.db 시험지 추출본에서도 똑같이 앞만 띄워져 있다. 그래서 원본 조판을 따른 것으로 판단하지만, 이 시험지에서는 확인하지 못했다.; 확인 불가: 발문의 [3점] 표시가 있는지 알 수 없다(20200312 정답표에 배점 칸이 없고 시험지 추출본도 없음). 각주(예: tagalong 풀이)가 있는지도 확인할 수 없다. 지금은 [3점] 없이, 각주는 빈 배열로 두었다."
+ },
+ {
+  "exam_id": "2020-수능",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Speculations about the meaning and purpose of prehistoric art {1|rely} heavily on analogies drawn with modern-day hunter-gatherer societies. Such primitive societies, {2|as} Steven Mithen emphasizes in The Prehistory of the Modern Mind, tend to view man and beast, animal and plant, organic and inorganic spheres, as participants in an integrated, animated totality. The dual expressions of this tendency are anthropomorphism (the practice of regarding animals as humans) and totemism (the practice of regarding humans as animals), both of {3|which} spread through the visual art and the mythology of primitive cultures. Thus the natural world is conceptualized in terms of human social relations. When considered in this light, the visual preoccupation of early humans with the nonhuman creatures {4|inhabited} their world becomes profoundly meaningful. Among hunter-gatherers, animals are not only good to eat, they are also good to think about, as Claude Lévi-Strauss has observed. In the practice of totemism, he has suggested, an unlettered humanity “broods upon {5|itself} and its place in nature.”",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "problem",
+  "notes": "본문은 KCSAT-ENG와 sat_problems.csv가 글자 단위로 일치한다(csv의 'Lévi'는 결합형 악센트라 NFC 'é'로 통일). tymo는 따옴표가 곧은따옴표이고 'Lvi-Strauss'의 é가 빠졌으며 닫는 따옴표 ”가 없다. 다수 원문을 따라 곡선 따옴표, Lévi-Strauss, 끝의 .”를 살렸다. 책 제목 The Prehistory of the Modern Mind는 home2에서 이탤릭인데, 이 형식에는 이탤릭 표기가 없어 일반 글자로 두었다. 정답표 이미지에서 29번 배점이 2점이라 [3점]은 붙이지 않았다. study.db에 2019년 11월 수능 행이 없고 시험지 PDF 추출본도 로컬에 없어서 각주(낱말 풀이) 유무를 확인하지 못했다. 각주는 빈 배열로 두었고, 실제 시험지에 각주가 있었다면 빠진 상태다. | 검증: 수정 없음: 밑줄 표시까지 포함한 지문이 KCSAT-ENG kc_id=132의 QG 본문, EG 본문과 글자 하나까지 같다. 밑줄을 걷어 낸 본문은 sat_problems.csv(2020 짝수형 29번 7행, NFC로 정규화)와도 글자 하나까지 같다.; tymo와 다른 곳은 세 군데다(Lvi-Strauss, 곧은따옴표 \"broods, 끝의 .” 누락). 모두 tymo 쪽 추출 결함이라 다수 원문을 따른 현재 지문이 맞다.; 밑줄 ①rely ②as ③which ④inhabited ⑤itself가 레코드, KCSAT (n)<word>, csv [word] 세 곳에서 같다. 정답표 20191114에서 29번 정답 ④, 배점 2점을 확인했으므로 발문에 [3점]이 없는 것이 맞다.; 확인 불가(원문 부족): 각주가 있는지 확인할 수 없다. KCSAT·csv·tymo는 원래 각주를 싣지 않는 데이터라 각주가 없다고 해서 근거가 되지 않는다. study.db에는 2019년 11월 수능이 없고, 시험지 PDF나 ksatdash(2019-11 미수록)도 로컬에 없다. unlettered, brood 같은 낱말에 원본 각주가 있었다면 지금은 빠진 상태다. 각주를 지어내지 않고 빈 배열로 두었다."
+ },
+ {
+  "exam_id": "2019-10월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "The modern adult human brain weighs only 1/50 of the total body weight but uses up to 1/5 of the total energy needs. The brain’s running costs are about eight to ten times as high, per unit mass, as {1|those} of the body’s muscles. And around 3/4 of that energy is expended on neurons, the {2|specialized} brain cells that communicate in vast networks to generate our thoughts and behaviours. An individual neuron {3|sends} a signal in the brain uses as much energy as a leg muscle cell running a marathon. Of course, we use more energy overall when we are running, but we are not always on the move, whereas our brains never switch off. Even though the brain is metabolically greedy, it still outclasses any desktop computer both in terms of the calculations it can perform and the efficiency {4|at which} it does this. We may have built computers that can beat our top Grand Master chess players, but we are still far away from designing one that is capable of recognizing and picking up one of the chess pieces as {5|easily} as a typical three-year-old child can.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본과 KCSAT-ENG 본문이 줄바꿈과 원문자를 걷어 내면 글자 단위로 일치한다. 'three-year-old'는 study.db에서 소프트 하이픈(U+00AD), KCSAT-ENG에서 소프트 하이픈+하이픈이라 일반 하이픈으로 바로잡았다. 영국식 철자 behaviours는 두 원문 모두 같아 그대로 두었다. study.db 발문에 [3점] 표시가 없고 지문 뒤 각주 줄도 없다. 같은 DB의 다른 문항(2019-7 *hypnosis)에서는 각주가 추출되어 있으므로 각주는 없다고 판단했다."
+ },
+ {
+  "exam_id": "2020-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "To begin with a psychological reason, the knowledge of another’s personal affairs can tempt the possessor of this information {1|to repeat} it as gossip because as unrevealed information it remains socially inactive. Only when the information is repeated can its possessor {2|turn} the fact that he knows something into something socially valuable like social recognition, prestige, and notoriety. As long as he keeps his information to {3|himself}, he may feel superior to those who do not know it. But knowing and not telling does not give him that feeling of “superiority that, so to say, latently contained in the secret, fully {4|actualizing} itself only at the moment of disclosure.” This is the main motive for gossiping about well-known figures and superiors. The gossip producer assumes that some of the “fame” of the subject of gossip, as {5|whose} “friend” he presents himself, will rub off on him.",
+  "footnotes": [
+   "*prestige: 명성",
+   "**notoriety: 악명",
+   "***latently: 잠재적으로"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본에서는 원문자 ①~⑤가 줄 끝으로 밀려 있어(예: 'unrevealed ① information') 밑줄 위치는 KCSAT-ENG의 (n)<word>와 sat_problems.csv의 [word]를 따랐다(to repeat / turn / himself / actualizing / whose). 원문자를 걷어 낸 study.db 본문, KCSAT-ENG, sat_problems.csv가 글자 단위로 일치한다. tymo는 곧은따옴표를 쓰고 마지막 마침표가 빠져 있어 소수로 보고 따르지 않았다. 발문의 띄어쓰기 깨짐('중 ,', '것은 ?', '[3 점 ]')을 바로잡았고, 정답표 이미지에서 29번 배점 3점을 확인했다. 각주는 study.db에 '*prestige: **notoriety: ***latently: 명성 악명 잠재적으로'처럼 낱말과 뜻이 따로 모여 추출되어 있어 순서대로 짝지었다."
+ },
+ {
+  "exam_id": "2019-7월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The idea that hypnosis can put the brain into a special state, {1|in which} the powers of memory are dramatically greater than normal, reflects a belief in a form of easily unlocked potential. But it is false. People under hypnosis generate more “memories” than they {2|do} in a normal state, but these recollections are as likely to be false as true. Hypnosis leads them to come up with more information, but not necessarily more accurate information. In fact, it might actually be people’s beliefs in the power of hypnosis that {3|leads} them to recall more things: If people believe that they should have better memory under hypnosis, they will try harder to retrieve more memories when hypnotized. Unfortunately, there’s no way to know {4|whether} the memories hypnotized people retrieve are true or not—unless of course we know exactly what the person should be able to remember. But if we {5|knew} that, then we’d have no need to use hypnosis in the first place!",
+  "footnotes": [
+   "*hypnosis: 최면"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "이 시험의 어법 문항은 29번이 아니라 28번이다(study.db q_num 28, 정답표 28번 ③). study.db 본문과 KCSAT-ENG 본문이 줄바꿈을 걷어 내면 글자 단위로 일치한다(곡선 따옴표, 대시 — U+2014 포함). study.db 끝의 '영어 고 3'은 쪽 머리글이라 뺐다. tymo와 csv에는 이 지문이 없다(학평이라 수록되지 않음)."
+ },
+ {
+  "exam_id": "2020-6월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "An interesting aspect of human psychology is that we tend to like things more and find them more {1|appealing} if everything about those things is not obvious the first time we experience them. This is certainly true in music. For example, we might hear a song on the radio for the first time that catches our interest and {2|decide} we like it. Then the next time we hear it, we hear a lyric we didn’t catch the first time, or we might notice {3|what} the piano or drums are doing in the background. A special harmony {4|emerges} that we missed before. We hear more and more and understand more and more with each listening. Sometimes, the longer {5|that} takes for a work of art to reveal all of its subtleties to us, the more fond of that thing ― whether it’s music, art, dance, or architecture ― we become.",
+  "footnotes": [
+   "*subtleties: 중요한 세부 요소[사항]들"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "단어 순서, 단어, 문장부호 개수가 study.db와 KCSAT-ENG 사이에서 완전히 일치한다. study.db 추출본에서는 원문자와 대시(―) 두 개가 줄 끝으로 밀려 있었다('thing whether ―', 'we become. ―'). 그래서 대시 위치는 KCSAT-ENG와 DeepLearningProject를 따라 'that thing ― whether … architecture ― we become.'(앞뒤 공백 있음)으로 바로잡았다. tymo는 대시를 빼고 따옴표를 곧은따옴표로 바꾼 정규화본이라 따르지 않았다. 각주는 study.db에만 있으며 추출본은 '중요한 세부 요소 [ 사항 ] 들'이었다. 같은 PDF의 발문도 '부분 중 , … [3 점 ]'처럼 문장부호 앞뒤에 공백이 끼어 있어 추출 아티팩트로 보고 '중요한 세부 요소[사항]들'로 붙였다. 각주를 실어 둔 다른 원문이 없어 공백은 이 판단에만 의존한다."
+ },
+ {
+  "exam_id": "2019-4월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The present moment feels special. It is real. However much you may remember the past or anticipate the future, you live in the present. Of course, the moment {1|during which} you read that sentence is no longer happening. This one is. In other words, it feels as though time flows, in the sense that the present is constantly updating {2|itself}. We have a deep intuition that the future is open until it becomes present and {3|that} the past is fixed. As time flows, this structure of fixed past, immediate present and open future gets carried forward in time. Yet as {4|naturally} as this way of thinking is, you will not find it reflected in science. The equations of physics do not tell us which events are occurring right now―they are like a map without the “you are here” symbol. The present moment does not exist in them, and therefore neither {5|does} the flow of time.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "원문은 study.db와 KCSAT-ENG 두 가지뿐이다. 둘은 단어, 어순, 문장부호(대시 'now―they' 공백 없음, 둥근따옴표 “you are here” 포함)가 완전히 일치한다. 밑줄 범위 ① during which는 두 단어로, KCSAT-ENG의 (1)<during which>를 따랐다. 각주는 study.db 본문 끝, KCSAT-ENG 모두에 없다. home2 ESSENTIAL 자료는 'read a sentence'로 바꾼 변형 문항이라 대조에 쓰지 않았다."
+ },
+ {
+  "exam_id": "2019-3월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Baylor University researchers investigated {1|whether} different types of writing could ease people into sleep. To find out, they had 57 young adults spend five minutes before bed {2|writing} either a to-do list for the days ahead or a list of tasks they’d finished over the past few days. The results confirm that not all pre-sleep writing is created equally. Those who made to-do lists before bed {3|were} able to fall asleep nine minutes faster than those who wrote about past events. The quality of the lists mattered, too; the more tasks and the more {4|specific} the to-do lists were, the faster the writers fell asleep. The study authors figure that writing down future tasks {5|unloading} the thoughts so you can stop turning them over in your mind. You’re telling your brain that the task will get done―just not right now.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "이 시험은 29번이 아니라 28번이다. 두 원문 모두 소프트 하이픈(U+00AD)으로 적혀 있던 to­do(3회), pre­sleep을 원래 하이픈 단어인 to-do, pre-sleep으로 바꿨다. 마지막 문장의 대시 공백은 원문끼리 다르다. study.db PDF 추출은 'done―just'(공백 없음), KCSAT-ENG는 'done ― just', home2 교재는 em dash를 쓴 'done — just'다. 시험지 PDF에서 직접 뽑은 study.db를 따라 'done―just'로 두었다. 같은 교육청 시험인 2019-4월학평 'now―they'도 두 원문 모두 공백이 없다. 원본 PDF로는 확인하지 못했다. 발문에 [3점] 표시와 각주는 없다."
+ },
+ {
+  "exam_id": "2019-수능",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "“Monumental” is a word that comes very close to {1|expressing} the basic characteristic of Egyptian art. Never before and never since has the quality of monumentality been achieved as fully as it {2|did} in Egypt. The reason for this is not the external size and massiveness of their works, although the Egyptians admittedly achieved some amazing things in this respect. Many modern structures exceed {3|those} of Egypt in terms of purely physical size. But massiveness has nothing to do with monumentality. An Egyptian sculpture no bigger than a person’s hand is more monumental than that gigantic pile of stones {4|that} constitutes the war memorial in Leipzig, for instance. Monumentality is not a matter of external weight, but of “inner weight.” This inner weight is the quality which Egyptian art possesses to such a degree that everything in it seems to be made of primeval stone, like a mountain range, even if it is only a few inches across or {5|carved} in wood.",
+  "footnotes": [
+   "*gigantic: 거대한",
+   "**primeval: 원시 시대의"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 마지막 문장 어순이 뒤섞여 있었다('like a mountain range, carved in wood. even if it is only a few inches across or ⑤'). 이를 KCSAT-ENG, tymo, DeepLearningProject가 모두 일치하는 'even if it is only a few inches across or carved in wood.'로 바로잡았다. 그 밖의 단어와 문장부호 개수는 study.db와 같다. 둥근따옴표(“Monumental”, “inner weight.”)는 study.db, KCSAT-ENG, DeepLearningProject를 따랐고, 곧은따옴표로 정규화된 tymo는 따르지 않았다. 각주는 study.db에 두 단 레이아웃이 섞여 '*gigantic: **primeval: 거대한 원시 시대의'로 추출되어 있어 '*gigantic: 거대한'과 '**primeval: 원시 시대의'로 나눴다. 각주를 실은 다른 원문은 없다. KCSAT-ENG의 정답 표기는 'was done'이고 레코드는 'was'다. 지문 복원과는 관계없다."
+ },
+ {
+  "exam_id": "2018-10월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "The Internet allows information to flow more {1|freely} than ever before. We can communicate and share ideas in unprecedented ways. These developments are revolutionizing our self-expression and enhancing our freedom. But there’s a problem. We’re heading toward a world {2|where} an extensive trail of information fragments about us will be forever preserved on the Internet, displayed instantly in a search result. We will be forced to live with a detailed record {3|beginning} with childhood that will stay with us for life wherever we go, searchable and accessible from anywhere in the world. This data can often be of dubious reliability; it can be false; or it can be true but deeply {4|humiliated}. It may be increasingly difficult to have a fresh start or a second chance. We might find {5|it} harder to engage in self-exploration if every false step and foolish act is preserved forever in a permanent record.",
+  "footnotes": [
+   "*dubious: 의심스러운"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "이 시험은 29번이 아니라 28번이다. 원문은 study.db와 KCSAT-ENG 두 가지뿐이며, 단어, 어순, 문장부호가 완전히 일치한다. 두 원문 모두 소프트 하이픈(U+00AD)으로 적혀 있던 self­expression과 self­exploration을 원래 하이픈 단어인 self-expression, self-exploration으로 바꿨다. 각주는 study.db에만 있다. 발문에 [3점] 표시는 없다."
+ },
+ {
+  "exam_id": "2019-9월모평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Not all organisms are able to find sufficient food to survive, so starvation is a kind of disvalue often found in nature. It also is part of the process of selection {1|by which} biological evolution functions. Starvation helps filter out those less fit to survive, those less resourceful in finding food for {2|themselves} and their young. In some circumstances, it may pave the way for genetic variants {3|to take} hold in the population of a species and eventually allow the emergence of a new species in place of the old one. Thus starvation is a disvalue that can help make {4|possible} the good of greater diversity. Starvation can be of practical or instrumental value, even as it is an intrinsic disvalue. {5|What} some organisms must starve in nature is deeply regrettable and sad. The statement remains implacably true, even though starvation also may sometimes subserve ends that are good.",
+  "footnotes": [
+   "*implacably: 확고히",
+   "**subserve: 공헌하다"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "본문은 study.db, KCSAT-ENG, tymo, sat_problems.csv가 낱말 단위로 모두 같다. 밑줄 다섯 곳은 KCSAT-ENG (n)<word> 및 sat_problems.csv [ ] 표시와 같다. study.db 추출본의 원문자가 줄 끝으로 밀려 있어 바로잡았다. 발문은 추출본의 '중 ,' '것은 ?' 띄어쓰기 오류를 고쳤다. [3점] 표시는 어느 원문에도 없다. 각주는 추출본에 '*implacably: **subserve: 확고히 공헌하다'로 한글 풀이가 뒤로 몰려 있다. 같은 PDF 계열인 2019-6월모평 추출본도 같은 방식으로 깨져 있고, csat-analysis PDF로 그 방식을 확인했다. 이에 따라 '*implacably: 확고히', '**subserve: 공헌하다'로 나눴다. 이 시험의 PDF 원본으로 직접 확인하지는 못했다."
+ },
+ {
+  "exam_id": "2018-7월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "When it comes to medical treatment, patients see choice as both a blessing and a burden. And the burden falls primarily on women, who are {1|typically} the guardians not only of their own health, but that of their husbands and children. “It is an overwhelming task for women, and consumers in general, {2|to be} able to sort through the information they find and make decisions,” says Amy Allina, program director of the National Women’s Health Network. And what makes it overwhelming is not only that the decision is ours, but that the number of sources of information {3|which} we are to make the decisions has exploded. It’s not just a matter of listening to your doctor lay out the options and {4|making} a choice. We now have encyclopedic lay-people’s guides to health, “better health” magazines, and the Internet. So now the prospect of medical decisions {5|has} become everyone’s worst nightmare of a term paper assignment, with stakes infinitely higher than a grade in a course.",
+  "footnotes": [
+   "*lay-people: 비전문가"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db, KCSAT-ENG, csat-analysis PDF가 글자 단위로 같다. 'lay­people'의 U+00AD는 이 시험지에서 일반 하이픈 자리에 쓰였다. 같은 PDF의 'easy­to­operate', 'drone­challenge2018.net'도 그렇다. 그래서 본문과 각주 모두 'lay-people'로 바꿨다. 각주는 PDF 기준 '* lay-people: 비전문가'이고, 형식에 맞춰 '*' 뒤 공백을 뺐다. 이 시험은 구체제여서 어법이 28번이다."
+ },
+ {
+  "exam_id": "2019-6월모평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Humans are so averse to feeling that they’re being cheated {1|that} they often respond in ways that seemingly make little sense. Behavioral economists ― the economists who actually study {2|what} people do as opposed to the kind who simply assume the human mind works like a calculator ― have shown again and again that people reject unfair offers even if {3|it} costs them money to do so. The typical experiment uses a task called the ultimatum game. It’s pretty straightforward. One person in a pair is given some money ― say $10. She then has the opportunity to offer some amount of it to her partner. The partner only has two options. He can take what’s offered or {4|refused} to take anything. There’s no room for negotiation; that’s why it’s called the ultimatum game. What typically happens? Many people offer an equal split to the partner, {5|leaving} both individuals happy and willing to trust each other in the future.",
+  "footnotes": [
+   "*averse to: ~을 싫어하는",
+   "**ultimatum: 최후통첩"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본에서 첫 번째 대시(―)가 줄 끝으로 밀려 있었고, 원문자 위치와 각주 한글이 깨져 있었다. csat-analysis PDF 레이아웃 추출본으로 바로잡았다. 각주 원문은 '* averse to: ~을 싫어하는 ** ultimatum: 최후통첩'이다. KCSAT-ENG만 'economists―the'처럼 대시 앞뒤에 공백이 없다. PDF, sat_problems.csv, passages.json은 공백이 있어서 다수를 따라 ' ― '로 두었다. tymo는 대시와 곧은 따옴표가 빠져 있어 대조에서 참고만 했다. 이 시험은 구체제여서 어법이 28번이고, [3점] 표시는 없다."
+ },
+ {
+  "exam_id": "2018-4월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "According to Pierre Pica, understanding quantities approximately in terms of estimating ratios is a universal human intuition. In fact, humans who do not have numbers have no choice but {1|to see} the world in this way. By contrast, understanding quantities in terms of exact numbers is not a universal intuition; it is a product of culture. The precedence of approximations and ratios over exact numbers, Pica suggests, {2|is} due to the fact that ratios are much more important for survival in the wild than the ability to count. {3|Faced} with a group of spear-wielding adversaries, we needed to know instantly whether there were more of them than us. When we saw two trees we needed to know instantly {4|that} had more fruit hanging from it. In neither case was it {5|necessary} to enumerate every enemy or every fruit individually. The crucial thing was to be able to make quick estimates of the relative amounts.",
+  "footnotes": [
+   "*enumerate: 일일이 세다"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "전문 원문은 study.db와 KCSAT-ENG 두 가지이고, 낱말 단위로 완전히 같다. 이 시험의 PDF 원본은 로컬에 없다. skku 강의 녹취는 지문 내용, 밑줄 ⑤ necessary, 정답 which를 뒷받침하지만 원문 글자 대조에는 쓸 수 없다. KCSAT-ENG는 원래 표현을 'what'으로 적었고, 레코드와 study.db 해설은 'which'다. 시험지 본문은 틀린 형태 'that' 그대로 두었다. 발문 앞 '28.다음'의 띄어쓰기는 고쳤다."
+ },
+ {
+  "exam_id": "2018-3월학평",
+  "question_number": 29,
+  "instruction": "(A), (B), (C)의 각 네모 안에서 어법에 맞는 표현으로 가장 적절한 것은?",
+  "passage": "The old maxim “I’ll sleep when I’m dead” is unfortunate. {A|Adopt|Adopting} this mind-set, and you will be dead sooner and the quality of that life will be worse. The elastic band of sleep deprivation can stretch only so far before it snaps. Sadly, human beings are in fact the only species that will deliberately deprive {B|them|themselves} of sleep without legitimate gain. Every component of wellness, and countless seams of societal fabric, are being eroded by our costly state of sleep neglect: human and financial alike. So much so that the World Health Organization (WHO) has now declared a sleep loss epidemic throughout industrialized nations. It is no coincidence that countries {C|where|which} sleep time has declined most dramatically over the past century, such as the US, the UK, Japan, and South Korea, and several in Western Europe, are also those suffering the greatest increase in rates of physical diseases and mental disorders.",
+  "footnotes": [],
+  "box_choices": [
+   "① Adopt …… them …… where",
+   "② Adopt …… themselves …… where",
+   "③ Adopt …… themselves …… which",
+   "④ Adopting …… themselves …… which",
+   "⑤ Adopting …… them …… which"
+  ],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "전문 원문은 study.db와 Moyigosa 두 가지이고, 공백을 빼고 비교하면 완전히 같다. Moyigosa는 줄을 이을 때 공백이 빠져 'deadsooner'처럼 붙어 있어 study.db의 띄어쓰기를 따랐다. 'mind­set'의 U+00AD는 하이픈 단어이므로 'mind-set'으로 바꿨다. 네모 선택지 순서(Adopt/Adopting, them/themselves, where/which)는 두 원문이 같다. 선택지 표의 '······'는 지정 형식에 맞춰 '……'로 옮겼다. KCSAT-ENG에는 이 문항이 없다. 두 원문 모두 각주와 [3점] 표시가 없고, PDF 원본으로 직접 확인하지는 못했다."
+ },
+ {
+  "exam_id": "2018-수능",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "Psychologists who study giving behavior {1|have} noticed that some people give substantial amounts to one or two charities, while others give small amounts to many charities. Those who donate to one or two charities seek evidence about what the charity is doing and {2|what} it is really having a positive impact. If the evidence indicates that the charity is really helping others, they make a substantial donation. Those who give small amounts to many charities are not so interested in whether what they are {3|doing} helps others ─ psychologists call them warm glow givers. Knowing that they are giving makes {4|them} feel good, regardless of the impact of their donation. In many cases the donation is so small ─ $10 or less ─ that if they stopped {5|to think}, they would realize that the cost of processing the donation is likely to exceed any benefit it brings to the charity.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 ①~⑤ 기호와 두 번째 대시가 줄 끝('they would ─ ⑤')으로 밀려 있어 원본 PDF(-layout)와 bjpublic CSV에 따라 'so small ─ $10 or less ─ that' 위치로 바로잡음. 대시 문자는 PDF에 인코딩된 U+2500(─)을 그대로 씀. 대시 앞뒤 띄어쓰기는 KCSAT-ENG만 'others─ psychologists', 'small─ $10 or less─that'로 붙어 있고, 원본 PDF(-layout), bbox상 간격, csat-analysis, bjpublic CSV, 레코드 발췌가 모두 앞뒤를 띄우고 있어 ' ─ '로 둠. 밑줄 범위는 KCSAT-ENG (n)<word>와 원본 PDF의 원문자 위치(① have, ② what, ③ doing, ④ them, ⑤ to think)가 일치. 단어 순서는 study.db, csat-analysis와 단어 단위로 완전히 일치함을 스크립트로 확인. 각주 없음."
+ },
+ {
+  "exam_id": "2017-10월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "People seeking legal advice should be assured, when discussing their rights or obligations with a lawyer, {1|which} the latter will not disclose to third parties the information provided. Only if this duty of confidentiality is respected {2|will people} feel free to consult lawyers and provide the information required for the lawyer to prepare the client’s defense. Regardless of the type of information {3|disclosed}, clients must be certain that it will not be used against them in a court of law, by the authorities or by any other party. It is generally considered to be a condition of the good functioning of the legal system and, thus, in the general interest. Legal professional privilege is {4|much} more than an ordinary rule of evidence, limited in its application to the facts of a particular case. It is a fundamental condition on which the administration of justice as a whole {5|rests}.",
+  "footnotes": [
+   "*confidentiality: 비밀 유지"
+  ],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "시험지 원문 전체가 있는 독립 출처는 study.db와 KCSAT-ENG 두 가지뿐(csat-analysis, tymo에는 이 시험이 없음). 두 원문은 단어와 문장부호가 완전히 일치하고, home2에 첫 문장과 마지막 단락 문장이 일부 같은 형태로 있음. 발문과 각주(*confidentiality: 비밀 유지)는 study.db 한 곳에서만 확인했으며, study.db 발문에 배점 표시가 없어 [3점]을 넣지 않음. 밑줄 범위는 study.db 원문자 위치와 KCSAT-ENG가 일치(② 'will people' 두 단어)."
+ },
+ {
+  "exam_id": "2018-9월모평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "The lack of real, direct experience in and with nature has caused many children to regard the natural world as mere abstraction, that fantastic, beautifully filmed place {1|filled} with endangered rainforests and polar bears in peril. This overstated, often fictionalized version of nature is no more real ― and yet no less real ― to them than the everyday nature right outside their doors, {2|waits} to be discovered in a child’s way, at a child’s pace. Consider the University of Cambridge study which found that a group of eight-year-old children was able to identify {3|substantially} more characters from animations than common wildlife species. One wonders whether our children’s inherent capacity to recognize, classify, and order information about their environment ― abilities once essential to our very survival ― is slowly devolving to facilitate life in {4|their} increasingly virtualized world. It’s all part of {5|what} Robert Pyle first called “the extinction of experience.”",
+  "footnotes": [
+   "*peril: 위험",
+   "**devolve: 퇴화하다"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 대시(―)가 줄 끝으로 밀리고('nature ― ―', 'essential ―') ④⑤ 원문자가 한 줄 끝에 몰려 있어, 원본 PDF(-layout) 기준으로 대시 위치를 바로잡음. 대시는 U+2015(―). 앞뒤 띄어쓰기는 KCSAT-ENG만 'real―and', 'environment―abilities'처럼 붙어 있고, 원본 PDF(-layout)와 csat-analysis는 띄어 있으며 bbox상 대시 앞뒤 간격(약 2.6pt)이 같은 줄 낱말 간격(약 3pt)과 비슷해 ' ― '로 둠. 각주는 study.db에서 '*peril: **devolve: 위험 퇴화하다'로 뒤섞여 있어 PDF('* peril : 위험 ** devolve : 퇴화하다')에 따라 둘로 나눔. 단어 순서는 study.db, csat-analysis와 단어 단위로 완전히 일치함."
+ },
+ {
+  "exam_id": "2017-7월학평",
+  "question_number": 29,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "The most dramatic and significant contacts between civilizations were {1|when} people from one civilization conquered and eliminated the people of another. These contacts normally were not only violent but brief, and {2|they} occurred only occasionally. Beginning in the seventh century A.D., relatively {3|sustained} and at times intense intercivilizational contacts did develop between Islam and the West and Islam and India. Most commercial, cultural, and military interactions, however, were within civilizations. While India and China, for instance, were on occasion invaded and subjected by other peoples (Moguls, Mongols), both civilizations {4|having} extensive times of “warring states” within their own civilization as well. Similarly, the Greeks fought each other and traded with each other far more often than they {5|did} with Persians or other non-Greeks.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "시험지 원문 전체가 있는 출처는 study.db와 KCSAT-ENG 두 가지뿐. 두 원문은 단어와 문장부호가 완전히 일치함. 두 곳 모두 'non­Greeks'(소프트 하이픈)라서 원래 하이픈 단어로 보고 'non-Greeks'로 바꿈. home2에는 첫 문장(①)과 ④ 문장('for instance'가 빠진 변형)만 있음. 발문의 [3점]과 각주 없음은 study.db 한 곳에서만 확인함."
+ },
+ {
+  "exam_id": "2018-6월모평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Though most bees fill their days visiting flowers and collecting pollen, some bees take advantage of the hard work of others. These thieving bees sneak into the nest of an {1|unsuspecting} “normal” bee (known as the host), lay an egg near the pollen mass being gathered by the host bee for her own offspring, and then sneak back out. When the egg of the thief hatches, it kills the host’s offspring and then eats the pollen meant for {2|its} victim. Sometimes called brood parasites, these bees are also referred to as cuckoo bees, because they are similar to cuckoo birds, which lay an egg in the nest of another bird and {3|leaves} it for that bird to raise. They are more {4|technically} called cleptoparasites. Clepto means “thief” in Greek, and the term cleptoparasite refers specifically to an organism {5|that} lives off another by stealing its food. In this case the cleptoparasite feeds on the host’s hard-earned pollen stores.",
+  "footnotes": [
+   "*brood parasite: (알을 대신 기르도록 하는) 탁란 동물"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본은 원문자가 줄 끝으로 밀려 있어(예: 'lay an egg ①', 'Clepto ④') 원본 PDF와 KCSAT-ENG 밑줄 위치(① unsuspecting, ② its, ③ leaves, ④ technically, ⑤ that)로 바로잡음. 원본 PDF와 csat-analysis의 '“thief ”' 공백은 이탤릭 추출 흔적이라, study.db와 KCSAT-ENG에 맞춰 '“thief”'로 둠. 각주 괄호 안 공백은 study.db의 '( 알을 … 하는 )' 대신 원본 PDF의 '(알을 대신 기르도록 하는)'을 따름. csat-analysis의 이 시험 파일명은 '2017_June'(시행 연도 기준)임. 단어 순서는 study.db, csat-analysis와 완전히 일치함."
+ },
+ {
+  "exam_id": "2017-4월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "In early modern Europe, transport by water was usually much cheaper than transport by land. An Italian printer calculated in 1550 {1|that} to send a load of books from Rome to Lyons would cost 18 scudi by land compared with 4 by sea. Letters were normally carried overland, but a system of transporting letters and newspapers, as well as people, by canal boat {2|developed} in the Dutch Republic in the seventeenth century. The average speed of the boats was a little over four miles an hour, {3|slow} compared to a rider on horseback. On the other hand, the service was regular, frequent and cheap, and allowed communication not only between Amsterdam and the smaller towns, but also between one small town and another, thus {4|equalizing} accessibility to information. It was only in 1837, with the invention of the electric telegraph, that the traditional link between transport and the communication of messages {5|were} broken.",
+  "footnotes": [
+   "*scudi: 이탈리아의 옛 은화 단위(scudo)의 복수형"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "세 원문의 본문이 낱말 단위로 완전히 같다(문장부호 포함). 밑줄 범위는 KCSAT-ENG의 (n)<word> 범위와 레코드 ①~⑤를 따랐다. 틀린 선지 ⑤ were는 시험지 원문대로 두었다. 각주는 study.db 표기('*scudi:')를 따랐다. raw PDF의 '* scudi:'에 들어간 공백은 추출 과정에서 생긴 것으로 보았다."
+ },
+ {
+  "exam_id": "2017-3월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "One of the simplest and most effective ways to build empathy in children {1|is} to let them play more on their own. Unsupervised kids are not reluctant to tell one another how they feel. In addition, children at play often take on other roles, pretending to be Principal Walsh or Josh’s mom, happily forcing {2|themselves} to imagine how someone else thinks and feels. Unfortunately, free play is becoming rare. Boston College research professor Peter Gray has documented a continuous and {3|ultimately} dramatic decline in children’s opportunities to play and explore in their own chosen ways over the past fifty years in the United States and other developed countries. The effects have been especially {4|damaged}, he argues, to empathy. He concludes that a decline of empathy and a rise in narcissism are exactly {5|what} we would expect to see in children who have little opportunity to play socially.",
+  "footnotes": [
+   "*empathy: 공감, 감정 이입"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db와 KCSAT-ENG의 본문이 낱말과 문장부호 단위로 완전히 같다(아포스트로피는 둘 다 ’). 원본 PDF는 로컬에 없어서 독립 원문은 두 개다. home2_latest ESSENTIAL_UNIT-07_08.html에 있는 같은 지문은 is를 are로 바꾼 변형 문항이어서 대조에 쓰지 않았다. 틀린 선지 ④ damaged는 원문대로 두었다."
+ },
+ {
+  "exam_id": "2017-수능",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "When people face real adversity ─ disease, unemployment, or the disabilities of age ─ affection from a pet takes on new meaning. A pet’s continuing affection becomes crucially important for {1|those} enduring hardship because it reassures them that their core essence has not been damaged. Thus pets are important in the treatment of {2|depressed} or chronically ill patients. In addition, pets are {3|used} to great advantage with the institutionalized aged. In such institutions it is difficult for the staff to retain optimism when all the patients are declining in health. Children who visit cannot help but remember {4|what} their parents or grandparents once were and be depressed by their incapacities. Animals, however, have no expectations about mental capacity. They do not worship youth. They have no memories about what the aged once {5|was} and greet them as if they were children. An old man holding a puppy can relive a childhood moment with complete accuracy. His joy and the animal’s response are the same.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "본문 낱말은 모든 원문이 같다. 다른 점은 대시뿐이다. 문자는 raw PDF, csat-analysis, study.db, KCSAT-ENG, DeepLearningProject 모두 '─'(U+2500)이어서 그대로 두었다. 앞뒤 공백은 raw PDF, csat-analysis, DeepLearningProject가 'adversity ─ disease'처럼 띄어 쓰고, tymo도 대시가 빠진 자리에 공백 두 칸이 남아 있다. 붙여 쓴 것은 KCSAT-ENG뿐이어서 다수를 따라 띄어 썼다. study.db 추출본에서는 대시가 줄 끝으로 밀려 있었는데 바로잡았다. 아포스트로피는 원문의 ’를 따랐다(tymo만 '). 시험지에는 각주가 없다. 틀린 선지 ⑤ was는 원문대로 두었다."
+ },
+ {
+  "exam_id": "2016-10월학평",
+  "question_number": 28,
+  "instruction": "(A), (B), (C)의 각 네모 안에서 어법에 맞는 표현으로 가장 적절한 것은? [3점]",
+  "passage": "Sometimes perfectionists find that they are troubled because {A|what|whatever} they do it never seems good enough. If I ask, “For whom is it not good enough?” they do not always know the answer. After giving it some thought they usually conclude that it is not good enough for them and not good enough for other important people in their lives. This is a key point, because it suggests that the standard you may be struggling to {B|meet|be met} may not actually be your own. Instead, the standard you have set for yourself may be the standard of some important person in your life, such as a parent or a boss or a spouse. {C|Live|Living} your life in pursuit of someone else’s expectations is a difficult way to live. If the standards you set were not yours, it may be time to define your personal expectations for yourself and make self-fulfillment your goal.",
+  "footnotes": [],
+  "box_choices": [
+   "① what …… meet …… Live",
+   "② what …… be met …… Living",
+   "③ whatever …… meet …… Live",
+   "④ whatever …… meet …… Living",
+   "⑤ whatever …… be met …… Live"
+  ],
+  "confidence": "medium",
+  "verify": "ok",
+  "notes": "원문이 study.db 하나뿐이다. seb2는 같은 DB의 사본이고 blanks와 chapters 파일은 이 DB에서 파생된 것이라 독립 원문이 아니다. scratchpad의 eng_201610_go3.pdf는 EBSi 호스트가 차단되어 받지 못한 103바이트 오류 파일이다. 그래서 원본 시험지와 대조하지 못했다. 'self\\xadfulfillment'(소프트 하이픈)는 줄 가운데에 있으므로 원래 하이픈 단어로 보고 'self-fulfillment'로 바꾸었다. 선택지 표의 구분 기호가 study.db에서는 '······'(U+00B7 여섯 개)로 추출되었는데, 지정 형식에 맞춰 '……'로 옮겼다. study.db 본문에는 각주 줄이 없다."
+ },
+ {
+  "exam_id": "2017-9월모평",
+  "question_number": 28,
+  "instruction": "(A), (B), (C)의 각 네모 안에서 어법에 맞는 표현으로 가장 적절한 것은? [3점]",
+  "passage": "Like life in traditional society, but unlike other team sports, baseball is not governed by the clock. A football game is comprised of exactly sixty minutes of play, a basketball game forty or forty-eight minutes, but baseball has no set length of time within which the game must be completed. The pace of the game is therefore leisurely and {A|unhurried|unhurriedly}, like the world before the discipline of measured time, deadlines, schedules, and wages paid by the hour. Baseball belongs to the kind of world {B|which|in which} people did not say, “I haven’t got all day.” Baseball games do have all day to be played. But that does not mean that they can go on forever. Baseball, like traditional life, proceeds according to the rhythm of nature, specifically the rotation of the Earth. During its first half century, games were not played at night, which meant that baseball games, like the traditional work day, {C|ending|ended} when the sun set.",
+  "footnotes": [],
+  "box_choices": [
+   "① unhurried …… in which …… ended",
+   "② unhurried …… which …… ending",
+   "③ unhurriedly …… which …… ended",
+   "④ unhurriedly …… which …… ending",
+   "⑤ unhurriedly …… in which …… ended"
+  ],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "raw PDF, csat-analysis, study.db의 본문이 낱말과 문장부호 단위로 완전히 같다. tymo는 네모 표시가 빠지고 따옴표가 직선형(\")인데, 다수를 따라 “ ” ’로 두었다. study.db 선택지 표에서는 ②~⑤ 원문자가 줄 끝으로 밀려 있었는데 raw PDF와 csat-analysis에 따라 바로잡았다. 'forty-eight'은 줄 가운데에 일반 하이픈으로 들어 있다. 시험지에는 각주가 없다."
+ },
+ {
+  "exam_id": "2016-7월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "Humans usually experience sound as the result of vibrations in air or water. Although sound that humans can sense {1|is} usually carried through these media, vibrations can also travel through soil, including rocks. Thus, sound can travel through a variety of substances with different densities, and the physical characteristics of the medium through which the sound travels have a major influence on {2|how} the sound can be used. For instance, it requires more energy to make water vibrate than to vibrate air, and it requires a great deal of energy to make soil vibrate. Thus, the use of vibrations in communication {3|depending} on the ability of the sender to make a substance vibrate. Because of this, large animals such as elephants are more likely than small animals {4|to use} vibrations in the soil for communication. In addition, the speed {5|at which} sound travels depends on the density of the medium which it is traveling through.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db와 KCSAT-ENG 두 원문이 글자 단위로 일치한다. study.db의 줄바꿈만 없앴다. 각주와 배점 표시는 없다. eng2016_07.pdf는 내려받기에 실패한 103바이트 파일이라 쓸 수 없었다. home2_latest/DAECHI의 같은 지문은 밑줄 위치와 형태를 바꾼 변형 문항이어서 대조에서 뺐다."
+ },
+ {
+  "exam_id": "2017-6월모평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은?",
+  "passage": "If an animal is innately programmed for some type of behaviour, then there {1|are} likely to be biological clues. It is no accident that fish have bodies which are streamlined and {2|smooth}, with fins and a powerful tail. Their bodies are structurally adapted for moving fast through the water. Similarly, if you found a dead bird or mosquito, you could guess by looking at {3|its} wings that flying was its normal mode of transport. However, we must not be over-optimistic. Biological clues are not essential. The extent to which they are {4|finding} varies from animal to animal and from activity to activity. For example, it is impossible to guess from their bodies that birds make nests, and, sometimes, animals behave in a way quite contrary to {5|what} might be expected from their physical form: ghost spiders have tremendously long legs, yet they weave webs out of very short threads. To a human observer, their legs seem a great hindrance as they spin and move about the web.",
+  "footnotes": [],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db 추출본에서는 원문자 ①~⑤가 모두 줄 끝으로 밀려 있었다. KCSAT-ENG의 (n)<word> 표시를 기준으로 제자리에 돌려놓았다. ③ its는 'its wings'의 첫 번째 its다. 본문은 study.db, KCSAT-ENG, tymo 세 원문이 일치한다(tymo에 있던 이중 공백은 지웠다). 발문은 study.db의 '중 ,'와 '것은 ?'에 끼어 있던 공백을 DeepLearningProject 발문에 맞춰 지웠다. 어느 원문에도 [3점] 표시가 없다. 각주는 없다. csat-analysis의 2017_June_English.pdf는 2018학년도 시험지라 이 문항에는 쓰지 않았다."
+ },
+ {
+  "exam_id": "2016-4월학평",
+  "question_number": 28,
+  "instruction": "다음 글의 밑줄 친 부분 중, 어법상 틀린 것은? [3점]",
+  "passage": "We all want to believe that our brains sort through information in the most rational way {1|possible}. On the contrary, countless studies show that there are many weaknesses of human reasoning. Common weaknesses in reasoning {2|exist} across people of all ages and educational backgrounds. For example, confirmation bias is ubiquitous. People pay attention to information that supports their viewpoints, while {3|ignoring} evidence to the contrary. Confirmation bias is not the same as being stubborn, and is not constrained to issues {4|about which} people have strong opinions. Instead, it acts at a subconscious level to control the way we gather and filter information. Most of us are not aware of these types of flaws in our reasoning processes, but professionals who work to convince us of certain viewpoints {5|to study} the research on human decision making to determine how to exploit our weaknesses to make us more susceptible to their messages.",
+  "footnotes": [
+   "*ubiquitous: 아주 흔한"
+  ],
+  "box_choices": [],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db, KCSAT-ENG, csat-analysis 시험지 PDF, e201604.txt 네 원문의 본문, 밑줄, [3점]이 붙은 발문, 각주가 모두 일치한다. 줄바꿈만 없앴다."
+ },
+ {
+  "exam_id": "2016-3월학평",
+  "question_number": 28,
+  "instruction": "(A), (B), (C)의 각 네모 안에서 어법에 맞는 표현으로 가장 적절한 것은? [3점]",
+  "passage": "Water has no calories, but it takes up a space in your stomach, which creates a feeling of fullness. Recently, a study found {A|that|what} people who drank two glasses of water before meals got full sooner, ate fewer calories, and lost more weight. You can put the same strategy to work by choosing foods that have a higher water content over those with less water. For example, the only difference between grapes and raisins {B|is|are} that grapes have about 6 times as much water in them. That water makes a big difference in how much they fill you up. You’ll feel much more satisfied after eating 100 calories’ worth of grapes than you would after eating 100 calories’ worth of raisins. Salad vegetables like lettuce, cucumbers, and tomatoes also have a very high water content, as {C|are|do} broth-based soups.",
+  "footnotes": [
+   "*broth: 묽은 수프"
+  ],
+  "box_choices": [
+   "① that …… is …… are",
+   "② that …… is …… do",
+   "③ that …… are …… do",
+   "④ what …… is …… are",
+   "⑤ what …… are …… do"
+  ],
+  "confidence": "high",
+  "verify": "ok",
+  "notes": "study.db와 csat-analysis 시험지 PDF가 일치한다. study.db에서는 네모 선택지(that/what, are/do)가 줄 끝으로 밀려 있었는데, PDF에서 선택지가 제자리에 있는 것을 보고 바로잡았다. 'broth­based'에 있던 소프트 하이픈(U+00AD)은 '-'로 바꿔 broth-based로 적었다. You’ll, calories’의 ’는 원문 그대로 두었다. 원문 선택지의 구분 기호 '······'는 요청 형식에 맞춰 '……'로 옮겼다. KCSAT-ENG와 tymo에는 이 지문이 없다. home2_latest에는 (B) 문장만 예제로 실려 있고, 그 부분은 원문과 일치한다."
+ }
+]
