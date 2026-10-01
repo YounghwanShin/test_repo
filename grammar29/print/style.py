@@ -100,7 +100,7 @@ body { margin: 0; background: #fff; color: #000; }
 .box-choices td { padding: 0 2.2mm 0 0; }
 .box-choices tr:first-child td { text-align: center; }
 .box-choices td.n { padding-right: 1.5mm; }
-.key { visibility: hidden; margin-top: 1.6mm; padding-left: 8.8pt; font: 400 8.6pt/13px "ExamMyeongjo", "ExamLatin";
+.key { visibility: hidden; margin-top: 1.6mm; padding-left: 8.8pt; font: 400 8.6pt/13px "ExamLatin", "ExamMyeongjo";
        color: RED; letter-spacing: -0.02em; }
 
 /* 교사용 표시: 색과 위에 겹치는 원만 더해 학생용과 줄바꿈이 같게 둠 */
@@ -297,7 +297,7 @@ html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 """
 
 GUIDE_CSS = """
-body { margin: 0; background: #fff; color: #000; font: 400 10.2pt/22px "ExamMyeongjo", "ExamLatin", serif;
+body { margin: 0; background: #fff; color: #000; font: 400 10.2pt/22px "ExamLatin", "ExamMyeongjo", serif;
        text-align: justify; word-break: keep-all; overflow-wrap: anywhere; letter-spacing: -0.03em; }
 .cover { border-bottom: 3lw solid #000; padding-bottom: 2mm; display: grid; grid-template-columns: auto 1fr; align-items: end; gap: 4mm; }
 .cover .subj { font: 700 10pt "ExamGothic"; border: 1lw solid #000; border-radius: 1.6mm; padding: 0.6mm 2.4mm 0.4mm; letter-spacing: 0; }
@@ -316,7 +316,7 @@ body { margin: 0; background: #fff; color: #000; font: 400 10.2pt/22px "ExamMyeo
 section.chap { break-before: page; }
 section.chap.c1 { break-before: page; }
 h2 { font: 700 15.5pt "ExamGothic"; margin: 0 0 4mm; padding-bottom: 1.6mm; border-bottom: 3lw solid SPOT; letter-spacing: 0; }
-h2 .num { font: 700 21pt/1 "ExamLatin"; color: SPOT; margin-right: 2.6mm; vertical-align: -1pt; }
+h2 .num { font: 700 21pt/1 "ExamLatin", "ExamMyeongjo"; color: SPOT; margin-right: 2.6mm; vertical-align: -1pt; }
 h3 { font: 700 11.6pt "ExamGothic"; margin: 7mm 0 1.6mm; break-after: avoid; letter-spacing: 0; }
 h3 .num { color: SPOT; margin-right: 1.6mm; font-family: "ExamLatin"; }
 h4 { font: 700 9.8pt "ExamGothic"; margin: 3.2mm 0 1mm; break-after: avoid; letter-spacing: 0; }

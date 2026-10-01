@@ -275,7 +275,7 @@ def renumber(md, secs):
     valid.update({"1.1": "Ⅰ-01", "1.2": "Ⅰ-02", "1.3": "Ⅰ-03"})
     md = re.sub(r"(?m)^### (\d+)\.(\d+) ", lambda m: f'### <span class="num">{int(m.group(2)):02d}</span> ', md)
     md = re.sub(r"(?m)^## (\d+)\. ", lambda m: f'## <span class="num">{style.ROMAN[int(m.group(1))]}</span> ', md)
-    return re.sub(r"(?<![\d.\w])([1-6])\.([1-9])(?![\d.%\w])",
+    return re.sub(r"(?<![\d.A-Za-z])([1-6])\.([1-9])(?![\d.%A-Za-z]|배)",
                   lambda m: valid.get(f"{m.group(1)}.{m.group(2)}", m.group(0)), md)
 
 
