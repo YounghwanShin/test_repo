@@ -305,7 +305,7 @@ body { margin: 0; background: #fff; color: #000; font: 400 10.2pt/22px "ExamLati
 .cover .sub { font: 400 9pt "ExamMyeongjo"; display: block; margin-bottom: 1mm; }
 .namebar { text-align: right; font: 400 9pt "ExamMyeongjo"; padding: 1.6mm 0 2.4mm; }
 .namebar span { display: inline-block; border-bottom: 1lw solid #000; height: 3.6mm; vertical-align: -0.6mm; }
-.memo { font-size: 9pt; line-height: 16px; margin: 0 0 5mm; }
+.memo { text-align: left; font-size: 9pt; line-height: 16px; margin: 0 0 5mm; }
 .toc { margin: 0 0 4mm; }
 .toc .head { font: 700 12pt "ExamGothic"; margin: 0 0 2mm; letter-spacing: 0.3em; }
 .toc .row { display: flex; align-items: baseline; gap: 2mm; line-height: 19px; font-size: 9.6pt; }
