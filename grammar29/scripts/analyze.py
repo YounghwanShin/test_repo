@@ -29,9 +29,9 @@ DISPLAY = {
     "to부정사": "to부정사",
     "동명사": "동명사",
     "관계대명사": "관계대명사",
-    "관계대명사what": "관계대명사 what",
+    "관계대명사what": "what과 that의 구분",
     "관계부사/전치사+관계사": "관계부사와 전치사+관계대명사",
-    "명사절접속사(that/whether/if/의문사)": "명사절 접속사",
+    "명사절접속사(that/whether/if/의문사)": "명사절 접속사 that, whether, if",
     "접속사vs전치사": "접속사와 전치사",
     "대명사(수·격)": "대명사의 수와 격",
     "재귀대명사": "재귀대명사",
@@ -112,7 +112,7 @@ def write_list(qs):
     out.append("")
     found = [q for q in qs if q["record"] and q["record"]["found"]]
     out.append(f"- 2016년 3월 학평부터 2027학년도 9월 모평까지 고3 시험 {len(qs)}회 중 어법 문항 확인 {len(found)}회")
-    out.append("- 시험별 표의 굵은 행이 정답(어법상 틀린 표현) 선지")
+    out.append("- 시험별 표의 굵은 행이 정답(어법상 틀린 표현) 선지이며, 네모형은 행마다 맞는 표현을 괄호에 표기")
     out.append("- 신뢰도 high는 서로 독립된 출처 2곳 이상에서 정답과 선지가 일치한 문항, medium과 low는 일부만 확인된 문항")
     out.append("")
     years = defaultdict(list)
@@ -142,11 +142,18 @@ def write_list(qs):
             for c in r["choices"]:
                 row = [c["label"], md_escape(c["underlined"]), disp(c["category"]), md_escape(c["sub_point"]),
                        md_escape(c["context"]) or "-"]
-                if c["is_answer"]:
+                if is_wrong_choice(q, c):
                     row = [f"**{x}**" if x and x != "-" else x for x in row]
+                elif r["format"] == "네모3지":
+                    row[1] = f"{row[1]} (맞는 표현 {md_escape(c['correct_form'])})"
                 out.append("| " + " | ".join(row) + " |")
             out.append("")
     (DOCS / "01_기출문항_목록.md").write_text("\n".join(out) + "\n", encoding="utf-8")
+
+
+def is_wrong_choice(q, c):
+    """밑줄형에서 어법상 틀린 표현으로 출제된 선지. 네모형은 틀린 선지가 없어 제외"""
+    return c["is_answer"] and q["record"]["format"] == "밑줄5지"
 
 
 def pct(a, b):
@@ -159,13 +166,13 @@ def write_analysis(qs):
     choices = [(q, c) for q in found for c in q["record"]["choices"]]
     n_c = len(choices)
     tested = Counter(c["category"] for _, c in choices)
-    answer = Counter(c["category"] for _, c in choices if c["is_answer"])
+    answer = Counter(c["category"] for q, c in choices if is_wrong_choice(q, c))
     recent = [(q, c) for q, c in choices if q["exam"]["Y"] >= RECENT_FROM]
     tested_recent = Counter(c["category"] for _, c in recent)
-    answer_recent = Counter(c["category"] for _, c in recent if c["is_answer"])
+    answer_recent = Counter(c["category"] for q, c in recent if is_wrong_choice(q, c))
     csat = [(q, c) for q, c in choices if q["exam"]["kind"] in ("수능", "평가원")]
     tested_csat = Counter(c["category"] for _, c in csat)
-    answer_csat = Counter(c["category"] for _, c in csat if c["is_answer"])
+    answer_csat = Counter(c["category"] for q, c in csat if is_wrong_choice(q, c))
     n_recent_q = len({q["exam"]["id"] for q, _ in recent})
     n_csat_q = len({q["exam"]["id"] for q, _ in csat})
 
@@ -196,7 +203,18 @@ def write_analysis(qs):
     out.append("- 문항당 출제율은 해당 개념 선지 수를 문항 수로 나눈 값이며, 한 문항에 같은 개념이 두 번 나오면 100%를 넘을 수 있음")
     out.append("")
 
-    out.append("## 3. 단원별 출제 비중")
+    out.append("## 3. 틀린 표현으로 출제된 개념 순위")
+    out.append("")
+    out.append("정답 선지 수 (개) / 밑줄형 문항에서 어법상 틀린 표현으로 출제된 횟수, 네모형 제외")
+    out.append("")
+    out.append("| 순위 | 개념 | 정답 선지 | 비중 | 최근 5개년 | 수능과 모평 |")
+    out.append("| ---: | --- | ---: | ---: | ---: | ---: |")
+    n_wrong = sum(answer.values())
+    for i, (k, v) in enumerate(sorted(answer.items(), key=lambda kv: (-kv[1], -tested[kv[0]])), 1):
+        out.append(f"| {i} | {disp(k)} | {v} | {pct(v, n_wrong)} | {answer_recent[k]} | {answer_csat[k]} |")
+    out.append("")
+
+    out.append("## 4. 단원별 출제 비중")
     out.append("")
     out.append("출제 선지 수 (개) / 단원 구성은 총정리 문서와 같음")
     out.append("")
@@ -209,7 +227,7 @@ def write_analysis(qs):
         out.append(f"| {ch} | {t} | {pct(t, n_c)} | {a} | {pct(a, n_ans)} |")
     out.append("")
 
-    out.append("## 4. 시험별 정답 개념 흐름")
+    out.append("## 5. 시험별 정답 개념 흐름")
     out.append("")
     out.append("시험별 정답 선지의 개념 / 빈 칸은 미확인 시험")
     out.append("")
@@ -221,15 +239,15 @@ def write_analysis(qs):
         m = q["exam"]["M"]
         col = {3: 0, 4: 1, 5: 1, 6: 2, 7: 3, 9: 4, 10: 5, 11: 6}[m]
         if r and r["found"]:
-            ans = [c for c in r["choices"] if c["is_answer"]]
-            grid[q["exam"]["Y"]][col] = ", ".join(disp(c["category"]) for c in ans) or "-"
+            ans = [c for c in r["choices"] if is_wrong_choice(q, c)]
+            grid[q["exam"]["Y"]][col] = ", ".join(disp(c["category"]) for c in ans) or "네모형"
         else:
             grid[q["exam"]["Y"]][col] = "-"
     for y in sorted(grid):
         out.append(f"| {y} | " + " | ".join(grid[y].get(i, " ") for i in range(7)) + " |")
     out.append("")
 
-    out.append("## 5. 개념별 세부 포인트")
+    out.append("## 6. 개념별 세부 포인트")
     out.append("")
     out.append("- 개념마다 기출 선지의 세부 포인트를 시험 순서로 나열하며, 굵은 글씨는 정답 선지")
     out.append("")
@@ -237,12 +255,14 @@ def write_analysis(qs):
     for q, c in choices:
         by_cat[c["category"]].append((q, c))
     for i, k in enumerate(cats, 1):
-        out.append(f"### 5.{i} {disp(k)}")
+        out.append(f"### 6.{i} {disp(k)}")
         out.append("")
         for q, c in by_cat[k]:
             s = f"{exam_label(q)} {c['label']} {md_escape(c['underlined'])}"
-            if c["is_answer"]:
+            if is_wrong_choice(q, c):
                 s = f"**{s} → {md_escape(c['correct_form'])}**"
+            elif q["record"]["format"] == "네모3지":
+                s = f"{s} (맞는 표현 {md_escape(c['correct_form'])})"
             out.append(f"- {s}, {md_escape(c['sub_point'])}")
         out.append("")
     (DOCS / "02_출제분석.md").write_text("\n".join(out) + "\n", encoding="utf-8")
