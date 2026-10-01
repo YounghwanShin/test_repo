@@ -452,7 +452,7 @@
      "context": "it suggests that the standard you may be struggling to (B) meet/be met may not actually be your own.",
      "is_answer": true,
      "correct_form": "meet",
-     "category": "능동vs수동",
+     "category": "to부정사",
      "sub_point": "목적격 관계대명사가 생략된 관계절(the standard (that) you may be struggling to meet ___)의 목적어 공백 → 능동 to meet",
      "explanation": "선행사 the standard가 관계절 안에서 meet의 목적어이고, 행위자는 you(당신이 기준을 충족하려 애씀)입니다. 따라서 능동형 meet가 맞고, be met를 쓰면 'you가 충족되려고 애쓴다'는 뜻이 되어 목적어 자리도 비지 않습니다."
     },
@@ -1350,7 +1350,7 @@
      "context": "In neither case was it necessary to enumerate every enemy or every fruit individually.",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "부정어구 In neither case로 도치된 was it ~ 구문에서 was의 주격보어 → 형용사 necessary(가주어 it, 진주어 to enumerate)",
      "explanation": "도치를 풀면 it was necessary to enumerate ~다. 2형식 be동사의 주격보어 자리이므로 부사 necessarily가 아니라 형용사 necessary가 맞다."
     }
@@ -1617,7 +1617,7 @@
      "context": "Thus starvation is a disvalue that can help make possible the good of greater diversity.",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "make + 목적격보어(형용사) + 긴 목적어 후치",
      "explanation": "5형식 동사 make의 목적어 'the good of greater diversity'가 길어서 목적격보어 뒤로 옮겨진 구조(make possible O)다. 목적격보어 자리이므로 부사가 아닌 형용사 possible이 맞다."
     },
@@ -2049,7 +2049,7 @@
      "context": "we tend to like things more and find them more appealing if everything about those things is not obvious the first time",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "find + 목적어(them) + 목적격보어(형용사 appealing '매력적인')",
      "explanation": "find는 5형식 동사다. 목적어 them(= things) 뒤에는 그 상태를 설명하는 형용사 보어가 와야 한다. appealing은 '매력적인'이라는 뜻의 형용사이므로 맞다(부사 appealingly는 쓸 수 없다)."
     },
@@ -2934,7 +2934,7 @@
      "context": "Instruction in mathematics skills in isolation and devoid of student understandings and identities renders them helpless to benefit from explicit instruction.",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "render + 목적어(them) + 형용사 목적격보어(helpless)",
      "explanation": "render는 '~을 …한 상태로 만들다'라는 뜻의 5형식 동사로, 목적격보어 자리에 형용사가 온다. 그래서 형용사 helpless가 맞고 부사 helplessly는 쓸 수 없다."
     },
@@ -3119,7 +3119,7 @@
      "context": "Suggestive of our open-air markets and flea markets were the occasional markets at which Sio villagers living on the coast",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "be동사 were의 주격 보어(2형식) → 형용사 Suggestive (of ~). 보어가 문두로 나간 도치 구문(보어 + were + 주어)이며 부사 Suggestively는 올 수 없음",
      "explanation": "원래 어순은 The occasional markets ... were suggestive of our open-air markets and flea markets이다. be동사 were의 주격 보어인 형용사구 Suggestive of ~가 문두로 나가 '보어 + were + 주어' 순서로 도치되었다. 보어 자리이므로 부사가 아닌 형용사 Suggestive가 맞다."
     },
@@ -3242,7 +3242,7 @@
      "context": "So uniformly is this expectation, indeed, that the odd exception is noteworthy, and generally established for a specific purpose.",
      "is_answer": true,
      "correct_form": "uniform",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "So+보어+be동사+주어 도치(This expectation is so uniform that ~)에서 be동사의 주격보어 → 부사 아닌 형용사",
      "explanation": "원래 어순은 This expectation is so uniform that ~이고, so ~ that 구문의 보어가 문두로 나가 주어와 동사가 도치된 형태이다. 밑줄 부분은 be동사 is의 주격보어이므로 부사 uniformly를 형용사 uniform으로 고쳐야 한다."
     }
@@ -3409,7 +3409,7 @@
      "context": "where they would likely see beliefs expressed counter to their own",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "분사(현재vs과거)",
      "sub_point": "지각동사 see + 목적어 beliefs + 목적격보어 p.p.(신념이 '표현되는' 수동 관계)",
      "explanation": "지각동사 see의 목적어 beliefs는 '표현하는' 주체가 아니라 '표현되는' 대상이다. 따라서 목적격보어로 과거분사 expressed가 맞다."
     },
@@ -3510,7 +3510,7 @@
      "context": "The messages have to be kept, on the whole, honest.",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "keep+O+C(형용사)의 수동태 be kept+형용사 보어 → 부사 honestly가 아니라 형용사 honest",
      "explanation": "능동태 keep the messages honest(5형식)를 수동태로 바꾼 문장입니다. 목적격보어였던 형용사 honest가 be kept 뒤에 그대로 남으므로 형용사가 맞습니다."
     },
@@ -4898,7 +4898,7 @@
      "context": "a character who made the young doctor, Arthur Conan Doyle, famous around the world.",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "5형식 make + O(Arthur Conan Doyle) + 형용사 목적격보어 famous",
      "explanation": "made의 목적어 the young doctor(= Arthur Conan Doyle)의 상태를 설명하는 목적격보어 자리이므로 부사가 아닌 형용사 famous가 맞다."
     },
@@ -4982,7 +4982,7 @@
      "context": "When they do succeed, they show pleasure by a brightening of their eyes; when they fail, they show distress.",
      "is_answer": false,
      "correct_form": "",
-     "category": "조동사",
+     "category": "강조구문",
      "sub_point": "동사를 강조하는 조동사 do + 동사원형 succeed (주어 they 복수, 현재시제 → do)",
      "explanation": "뒤에 동사원형 succeed가 있으므로 대동사가 아니라 동사를 강조하는 조동사 do다. 주어 they가 복수이고 현재시제이므로 do가 맞다."
     },
@@ -5073,7 +5073,7 @@
      "context": "Adapting to a new and unfamiliar culture, then, is more than survival.",
      "is_answer": false,
      "correct_form": "",
-     "category": "동명사",
+     "category": "동사vs준동사",
      "sub_point": "정동사 is가 따로 있으므로 주어 자리에는 동명사 Adapting (원형 Adapt 불가)",
      "explanation": "이 문장의 정동사는 is이고, Adapting to a new and unfamiliar culture는 주어 역할을 하는 동명사구다. 그래서 동사원형이 아닌 동명사 Adapting이 맞다."
     },
@@ -5539,7 +5539,7 @@
      "correct_form": "",
      "category": "분사(현재vs과거)",
      "sub_point": "명사 spaceships를 뒤에서 수식하는 분사: 우주선이 '이동하는' 능동 관계 + 자동사 travel → 현재분사 traveling(It takes 사물+시간+to-v 구문)",
-     "explanation": "traveling은 spaceships를 뒤에서 꾸미는 현재분사다. 우주선이 직접 이동하는 능동 관계이고 travel은 자동사라서 과거분사 traveled는 올 수 없다. 문장의 정동사는 would take이므로 정동사 travel도 쓸 수 없다."
+     "explanation": "traveling은 spaceships를 뒤에서 꾸미는 현재분사로, 우주선이 직접 이동하는 능동 관계이고 여기서 travel은 목적어 없이 '이동하다'라는 뜻의 자동사로 쓰였으므로 수동의 과거분사 traveled는 올 수 없다. 문장의 정동사는 would take이므로 정동사 travel도 쓸 수 없다."
     },
     {
      "label": "⑤",
@@ -5724,7 +5724,7 @@
      "context": "a huge background of shared, objective knowledge that makes our ignorance available to us",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "5형식 make + 목적어(our ignorance) + 형용사 목적격보어 available",
      "explanation": "make가 '목적어를 ~한 상태로 만들다'라는 5형식으로 쓰였다. 목적격보어 자리에는 부사가 아니라 형용사가 와야 하므로 available이 맞다."
     }
@@ -5871,7 +5871,7 @@
      "context": "Closeness and familiarity are important in making the fictional environment more real.",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "5형식 make(동명사 making) + 목적어 the fictional environment + 형용사 목적격보어 (more) real → 부사 really 불가",
      "explanation": "동명사 making의 목적어 the fictional environment의 상태를 설명하는 목적격보어 자리이므로 비교급 형용사 more real이 맞다. 부사는 목적격보어가 될 수 없다."
     },
@@ -5951,7 +5951,7 @@
      "context": "Vaporware is applications that have either been announced or made available for sale but are not yet fully functional",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "5형식 make O 형용사(available)의 수동태 have been made available → 보어 자리 형용사 (부사 X)",
      "explanation": "have (been) made available은 'make + 목적어 + 형용사 보어'가 수동태로 바뀐 형태이다. 남은 보어 자리이므로 형용사 available이 맞다."
     },
@@ -6057,7 +6057,7 @@
      "context": "Blending is frequently done for taste as well as marketing reasons, especially since some consumers find the darker honeys too strong.",
      "is_answer": false,
      "correct_form": "",
-     "category": "보어(2형식/5형식목적격보어)",
+     "category": "형용사vs부사",
      "sub_point": "5형식 find + 목적어 + 형용사 목적격보어(too strong) → 부사 strongly 불가",
      "explanation": "find의 목적격보어인 형용사구의 핵심어이므로 형용사 strong이 맞다. 일부 소비자가 짙은 색 꿀을 너무 강하다고 여긴다는 뜻이다."
     },
@@ -6429,7 +6429,7 @@
      "correct_form": "",
      "category": "관계부사/전치사+관계사",
      "sub_point": "상황·방식을 나타내는 추상적 선행사 a hybrid model + 완전한 절(they can work ...) → 관계부사 where (= in which)",
-     "explanation": "뒤에 주어와 동사, 목적어를 갖춘 완전한 절이 오고, 선행사 a hybrid model이 근무가 이루어지는 틀(상황)을 뜻하므로 관계부사 where가 맞다. 가장 많이 고른 오답이다(선택률 27.5%)."
+     "explanation": "뒤에 주어 they와 동사 can work를 갖춘 완전한 절이 오고(여기서 work는 목적어 없이 쓰인 자동사이고 part of the time은 부사 역할을 한다), 선행사 a hybrid model이 근무가 이루어지는 틀(상황)을 뜻하므로 관계부사 where가 맞다. 가장 많이 고른 오답이다(선택률 27.5%)."
     },
     {
      "label": "⑤",
