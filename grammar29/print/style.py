@@ -314,7 +314,7 @@ body { margin: 0; background: #fff; color: #000; font: 400 10.2pt/22px "ExamLati
 .toc .lead { flex: 1; border-bottom: 1lw dotted #000; transform: translateY(-1.2mm); }
 .toc .pg { font-family: "ExamLatin"; min-width: 6mm; text-align: right; letter-spacing: 0; }
 section.chap { break-before: page; }
-section.chap.c1 { break-before: page; }
+section.chap.c1 { break-before: auto; margin-top: 4mm; }
 h2 { font: 700 15.5pt "ExamGothic"; margin: 0 0 4mm; padding-bottom: 1.6mm; border-bottom: 3lw solid SPOT; letter-spacing: 0; }
 h2 .num { font: 700 21pt/1 "ExamLatin", "ExamMyeongjo"; color: SPOT; margin-right: 2.6mm; vertical-align: -1pt; }
 h3 { font: 700 11.6pt "ExamGothic"; margin: 7mm 0 1.6mm; break-after: avoid; letter-spacing: 0; }
@@ -343,7 +343,7 @@ th { font: 700 8.4pt "ExamGothic"; background: #e6e6e6; padding: 1mm 1.4mm; bord
 td { padding: 0.9mm 1.4mm; border-bottom: 1lw solid #000; vertical-align: top; }
 tr { break-inside: avoid; }
 td.v, td.c { text-align: center; }
-td.v { white-space: nowrap; }
+td.v { white-space: normal; }
 td.ex { font-family: "ExamLatin", "ExamMyeongjo"; letter-spacing: 0; text-align: left; }
 .legend { font-size: 8.4pt; line-height: 14px; margin: 0.6mm 0 0; break-before: avoid; break-after: avoid; }
 .quiz { break-inside: avoid; }
@@ -362,6 +362,9 @@ def guide_page(body_html, teacher, font_dir, title, sub, chapters):
     named = "".join(
         f'section.c{n} {{ page: ch{n}; }}\n@page ch{n}:right {{ @top-right {{ content: "{ROMAN[n]} {name}"; }} }}\n'
         for n, name in chapters)
+    if chapters:
+        named += f".cover, .namebar {{ page: ch{chapters[0][0]}; }}\n"
+        named += f"@page ch{chapters[0][0]}:first {{ @top-right {{ content: none; }} }}\n"
     page = GUIDE_PAGE.replace("TITLE", title) + named
     css = page + x2(font_faces(font_dir) + GUIDE_CSS.replace("SPOT", SPOT).replace("RED", RED))
     cls = "teacher" if teacher else ""

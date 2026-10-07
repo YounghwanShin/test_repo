@@ -10,9 +10,9 @@
   src/총정리_빈칸.md         개념 정리 원고 (빈칸 {{답}})
   ../data/questions.json     정답, 고친 형태, 개념 분류
 출력 (out/):
-  영어29번_어법기출73제_문제지.pdf       학생용 시험지
-  영어29번_어법기출73제_교사용.pdf       정답 표시 시험지
-  영어29번_어법기출73제_정답과해설.pdf   빠른 정답표와 문항별 해설
+  영어29번_어법기출69제_문제지.pdf       학생용 시험지
+  영어29번_어법기출69제_교사용.pdf       정답 표시 시험지
+  영어29번_어법기출69제_정답과해설.pdf   빠른 정답표와 문항별 해설
   영어29번_어법개념정리_학생용.pdf       빈칸 학습지
   영어29번_어법개념정리_교사용.pdf       빈칸 답 표시본과 확인 문제 정답 부록
 """
@@ -36,9 +36,9 @@ from analyze import CHAPTERS, DISPLAY  # noqa: E402
 CIRCLED = "①②③④⑤"
 OUT = HERE / "out"
 EXAM_TITLE = "영어 29번 어법 기출"
-EXAM_SUB = "2016년~2026년 고3 수능, 모의평가, 학력평가 73문항"
+EXAM_SUB = "2016년~2026년 고3 수능, 모의평가, 학력평가 69문항"
 GUIDE_TITLE = "영어 29번 어법 개념 정리"
-GUIDE_SUB = "2016년~2026년 고3 기출 73문항으로 정리"
+GUIDE_SUB = "2016년~2026년 고3 수능, 모의평가, 학력평가 기출"
 NOTICE = ("※ 각 문항의 [ ] 안은 출제 시험입니다. 28번으로 출제된 문항은 원래 번호를 함께 적었습니다. "
           "남는 자리는 풀이 공간으로 쓰십시오.")
 
@@ -57,7 +57,8 @@ def load_json(name):
 
 def exam_order(questions, passages):
     """최근 시행 시험부터 시행 월 역순"""
-    ids = [i for i in passages if questions.get(i) and questions[i]["record"]["found"]]
+    ids = [i for i in passages if questions.get(i) and questions[i]["record"]["found"]
+           and questions[i]["record"]["format"] != "네모3지"]
     return sorted(ids, key=lambda i: (-questions[i]["exam"]["Y"], -questions[i]["exam"]["M"]))
 
 
@@ -75,14 +76,11 @@ def source_tag(q):
 
 
 def live_sections():
-    """출제 선지가 있는 개념만 절이 됨: category → (장 번호, 절 번호)"""
-    counts = json.loads((ROOT / "data" / "stats.json").read_text(encoding="utf-8"))["tested"]
-    out = {}
-    for n, (_, cats) in enumerate(CHAPTERS, 2):
-        live = [c for c in sorted(cats, key=lambda k: -counts.get(k, 0)) if counts.get(c, 0) > 0]
-        for k, c in enumerate(live, 1):
-            out[c] = (n, k)
-    return out
+    """원고의 절 제목으로 category → (장 번호, 절 번호)"""
+    md = (HERE / "src" / "총정리_빈칸.md").read_text(encoding="utf-8")
+    by_title = {v: k for k, v in DISPLAY.items()}
+    return {by_title[m.group(3).strip()]: (int(m.group(1)), int(m.group(2)))
+            for m in re.finditer(r"(?m)^### (\d+)\.(\d+) (.+)$", md) if m.group(3).strip() in by_title}
 
 
 def sec_label(n, k):
@@ -223,7 +221,7 @@ def transform_guide_md(md, wrong_counts, secs):
             out.append("")
             if m3:
                 n = wrong_counts.get(cat_by_title.get(m3.group(1).strip()), 0)
-                if n >= 3:
+                if False:
                     out.append(f'<p class="note">{NOTE_FORMS[note_i % len(NOTE_FORMS)].format(n=n)}</p>')
                     out.append("")
                     note_i += 1
@@ -272,7 +270,6 @@ def split_quizzes(md):
 
 def renumber(md, secs):
     valid = {f"{n}.{k}": sec_label(n, k) for n, k in secs.values()}
-    valid.update({"1.1": "Ⅰ-01", "1.2": "Ⅰ-02", "1.3": "Ⅰ-03"})
     md = re.sub(r"(?m)^### (\d+)\.(\d+) ", lambda m: f'### <span class="num">{int(m.group(2)):02d}</span> ', md)
     md = re.sub(r"(?m)^## (\d+)\. ", lambda m: f'## <span class="num">{style.ROMAN[int(m.group(1))]}</span> ', md)
     return re.sub(r"(?<![\d.A-Za-z])([1-6])\.([1-9])(?![\d.%A-Za-z]|배)",
@@ -288,7 +285,7 @@ def style_tables(body, state):
         heads = re.findall(r"<th[^>]*>(.*?)</th>", t)
         if heads == EX_HEAD:
             cols = ('<colgroup><col style="width:40mm"><col style="width:16mm"><col>'
-                    '<col style="width:34mm"><col style="width:72mm"></colgroup>')
+                    '<col style="width:46mm"><col style="width:66mm"></colgroup>')
             t = t.replace("<table>", f'<table class="fixed">{cols}', 1)
             t = re.sub(r"<th[^>]*>포인트</th>", "<th>판단 근거</th>", t)
 
@@ -414,42 +411,22 @@ def build_exam(questions, fonts, tmpdir):
         part = tmpdir / f"exam_{'t' if teacher else 's'}.pdf"
         print_pdf(style.exam_page(qhtml, teacher, fonts, EXAM_TITLE, EXAM_SUB, html.escape(NOTICE)), part,
                   wait_js="window.__done === true")
-        name = "영어29번_어법기출73제_교사용.pdf" if teacher else "영어29번_어법기출73제_문제지.pdf"
+        name = "영어29번_어법기출69제_교사용.pdf" if teacher else "영어29번_어법기출69제_문제지.pdf"
         finish(part, OUT / name, EXAM_TITLE + (" 교사용" if teacher else " 문제지"))
     quick = "".join(f'<div>{i + 1:02d}. {answer_number(questions[e], passages[e])}</div>' for i, e in enumerate(order))
     items = "\n".join(explanation_html(i + 1, questions[e], passages[e], expl[e], secs) for i, e in enumerate(order))
     part = tmpdir / "answers.pdf"
     print_pdf(style.answers_page(quick, items, fonts, EXAM_TITLE, EXAM_SUB), part, wait_js="window.__done === true")
-    finish(part, OUT / "영어29번_어법기출73제_정답과해설.pdf", EXAM_TITLE + " 정답과 해설")
+    finish(part, OUT / "영어29번_어법기출69제_정답과해설.pdf", EXAM_TITLE + " 정답과 해설")
 
 
 def build_guide(fonts, tmpdir):
-    import pymupdf
     md = (HERE / "src" / "총정리_빈칸.md").read_text(encoding="utf-8")
     body, appendix, chapters = guide_html(md)
-    entries = [(1 if s.group(1) == "2" else 2, f"{s.group(2)} {re.sub('<[^>]+>', '', s.group(3))}")
-               for s in re.finditer(r'<h([23])><span class="num">(\S+)</span> (.*?)</h\1>', body)]
-    pages = {}
     for teacher in (False, True):
-        memo = ('<p class="memo">※ 2016년 3월부터 2026년 9월까지 고3 수능, 모의평가, 학력평가의 어법 문항 73개'
-                '(2019년 이전 일부는 28번)를 개념별로 정리했다. '
-                + ("빨간 글씨는 빈칸의 답이고, 확인 문제 정답은 맨 뒤 부록에 있다." if teacher else
-                   "빈칸은 수업 시간에 채운다.") + "</p>")
         part = tmpdir / f"guide_{'t' if teacher else 's'}.pdf"
-        for _ in range(3):
-            doc_body = memo + toc_html(entries, pages) + body + (appendix if teacher else "")
-            print_pdf(style.guide_page(doc_body, teacher, fonts, GUIDE_TITLE, GUIDE_SUB, chapters), part, outline=True)
-            new, i = {}, 0
-            for lvl, title, pg in pymupdf.open(part).get_toc():
-                if i < len(entries) and lvl == entries[i][0] + 1 and toc_key(title) == toc_key(entries[i][1]):
-                    new[entries[i][1]] = pg
-                    i += 1
-            if new == pages:
-                break
-            pages = new
-        missing = [t for _, t in entries if not pages.get(t)]
-        if missing:
-            print("경고: 차례 쪽 번호를 찾지 못함", missing)
+        print_pdf(style.guide_page(body + (appendix if teacher else ""), teacher, fonts, GUIDE_TITLE, GUIDE_SUB,
+                                   chapters), part, outline=True)
         name = "영어29번_어법개념정리_교사용.pdf" if teacher else "영어29번_어법개념정리_학생용.pdf"
         finish(part, OUT / name, GUIDE_TITLE + (" 교사용" if teacher else " 학생용"), keep_toc=True)
 
